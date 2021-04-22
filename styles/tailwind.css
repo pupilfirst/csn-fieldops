@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply font-spacemono;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.ContentSection {
+  @apply max-w-screen-sm mx-auto;
+  @apply py-8;
+  @apply px-6;
+}
+
+@screen sm {
+  .ContentSection {
+    @apply max-w-screen-md;
+    @apply py-16;
+    @apply px-0;
+  }
+}
+
+@screen md {
+  .ContentSection {
+    @apply max-w-screen-lg mx-auto;
+    @apply py-32;
+    @apply w-2/3;
+  }
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+.hero__bg-pattern {
+  background-image: url(".././public/hero/hero-pattern.svg");
+  background-repeat: repeat;
+  background-size: 400px 400px;
+}
+
+.heading-with-leftborder {
+  @apply relative;
+}
+
+.heading-with-leftborder::before {
+  @apply absolute bg-primary-500 rounded-r-md h-full top-0 left-0;
+  content: '';
+  width: 4px;
+}
+
+@screen lg {
+  .heading-with-leftborder::before {
+    width: 8px;
+  }
+}
+
+.heading-with-underscore {
+  @apply relative pl-8;
+}
+
+.heading-with-underscore::before {
+  @apply absolute bg-white h-0.5 w-4;
+  content: '';
+  bottom: 10px;
+  left: 4px;
+}
+
+.terminal-container-bg {
+  background-color: #19191A;
+}
+
+.testimonial-blockquote {
+  @apply relative;
+}
+
+.testimonial-blockquote::before {
+  @apply absolute h-6 top-0 left-0 w-6 ml-4;
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url(".././public/testimonial/quote-icon-green.svg");
+}
+
+@screen lg {
+  .testimonial-blockquote::before {
+    @apply w-11 ml-0;
+  }
+}
