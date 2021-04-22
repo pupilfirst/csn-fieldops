@@ -211,7 +211,7 @@ export default function Home() {
                 <div className="flex">
                   <span className="text-primary-500 text-xl">&#10142;</span>
                   <p className="pl-3">
-                    Become part of a
+                    Become part of a{" "}
                     <span className="text-primary-500">
                       national volunteer team
                     </span>
@@ -220,7 +220,7 @@ export default function Home() {
                 <div className="flex">
                   <span className="text-primary-500 text-xl">&#10142;</span>
                   <p className="pl-3">
-                    Many roles to choose from based on your
+                    Many roles to choose from based on your{" "}
                     <span className="text-primary-500">skills</span>
                   </p>
                 </div>
@@ -229,7 +229,7 @@ export default function Home() {
                   <p className="pl-3">
                     Meaningful{" "}
                     <span className="text-primary-500">
-                      Internship experience
+                      Internship experience{" "}
                     </span>
                     for a life-time
                   </p>
