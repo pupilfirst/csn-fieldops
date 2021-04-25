@@ -312,8 +312,11 @@ export default function Home() {
                       Curriculum?
                     </h3>
                     <p className="ml-8 md:ml-16 pt-1 text-white">
-                      One Management Course on How field operations work and one
-                      technical training on using CoronaSafe network.
+                      A short management course on how disaster management
+                      operations work and a technical training on using
+                      <a href="https://coronasafe.network/tools">
+                        CoronaSafe Network tools.
+                      </a>
                     </p>
                   </div>
                   <div>
@@ -408,7 +411,17 @@ export default function Home() {
                 />
               </svg>
               <div className="max-w-3xl mx-auto relative z-10 pl-4 lg:pl-0">
-                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-12 py-12 lg:pb-20">
+                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 md:gap-12 py-12 lg:pb-20">
+                  <ImageWithDescription
+                    name="Air Marshal Balakrishnan Suresh"
+                    caption={
+                      <>
+                        PVSM, AVSM, VM, ADC, <br />
+                        Commander in Chief, Western Air Command (Retd)
+                      </>
+                    }
+                    imgSrc="people/Air_Marshal_Balakrishnan_Suresh_Indian_Air_Force.jpg"
+                  />
                   <ImageWithDescription
                     name="Dr Shibu Balakrishnan"
                     caption={
@@ -420,15 +433,16 @@ export default function Home() {
                     imgSrc="people/Dr_Shibu_Balakrishnan.jpg"
                   />
                   <ImageWithDescription
-                    name="Air Marshal Balakrishnan Suresh"
+                    name="Dr Sachin Suresh"
                     caption={
                       <>
-                        PVSM, AVSM, VM, ADC, <br />
-                        Commander in Chief, Western Air Command
+                        MBBS, MS (ENT), <br />
+                        ENT Surgeon, Ernakulam
                       </>
                     }
-                    imgSrc="people/Air_Marshal_Balakrishnan_Suresh_Indian_Air_Force.jpg"
+                    imgSrc="people/Dr_Sachin_Suresh.jpg"
                   />
+
                   <ImageWithDescription
                     name="Dr. Ajay Nair"
                     caption={
@@ -561,7 +575,7 @@ export default function Home() {
                   <p className="mt-4">
                     This program is created by a team of over a dozen people
                     from across multiple companies, with funding from the ACT
-                    foundation
+                    foundation.
                   </p>
                   <p>
                     ACT is a 100 crore fund setup by India’s leading tech
@@ -593,7 +607,7 @@ export default function Home() {
                     of Health, Government of Kerala.
                   </p>
                   <p>
-                    During the first Covid19 wave in March 2021, over 300+
+                    During the first Covid19 wave in March 2020, over 300+
                     industry software engineers voluntarily contributed to build
                     CoronaSafe Network. The software is currently being used in
                     over 300 hospitals to record patient intake and availability
@@ -602,13 +616,16 @@ export default function Home() {
                     allocating resources.
                   </p>
                   <p>
-                    In Jan 2021, 50,482 students applied for CoronaSafe
-                    Engineering Fellowships from which 18 students were selected
-                    and successfully completed industry led software training
-                    for continous upgradation of CoroanSafe Network. You shall
-                    work alongside india’s top software engineering students and
-                    give inputs from the field to improve operational efficiency
-                    of the software and processes.
+                    In Jan 2021, 50,482 students applied for{" "}
+                    <a href="https://fullstack.pupilfirst.org/">
+                      CoronaSafe Engineering Fellowships{" "}
+                    </a>
+                    from which 18 students were selected and successfully
+                    completed industry led software training for continous
+                    upgradation of CoroanSafe Network. You shall work alongside
+                    india’s top software engineering students and give inputs
+                    from the field to improve operational efficiency of the
+                    software and processes.
                   </p>
                 </div>
               </div>
@@ -752,8 +769,8 @@ export default function Home() {
                       operating the real software tools that healthforce workers
                       use in the field. Once you complete your training
                       successfully, you shall be inducted into the Field
-                      Operations Cadre to deploy CoronaSafe Network in your
-                      district.
+                      Operations Reserve Cadre to deploy CoronaSafe Network in
+                      your district.
                     </p>
                   </div>
                   <div>
@@ -827,7 +844,7 @@ export default function Home() {
                           Covid19 is here to stay
                         </a>
                         . CoronaSafe Network is a fully functioning
-                        battle-tested solution that has managed over 1.4 Lakh
+                        battle-tested solution that has managed over 1.5 Lakh
                         patients in Ernakulam, the largest district of Kerala.
                         You shall learn about how various government departments
                         come together to fight the virus, observe what gaps are
@@ -949,12 +966,12 @@ export default function Home() {
                   <p className="text-white pt-2">
                     Email us at
                     <a
-                      href="mailto:field-ops@pupilfirst.org"
+                      href="mailto:bharat@pupilfirst.org"
                       className={
                         "text-primary-700 underline pl-2 tracking-wide font-montserrat font-medium"
                       }
                     >
-                      field-ops@pupilfirst.org
+                      bharat@pupilfirst.org
                     </a>
                   </p>
                 </div>
