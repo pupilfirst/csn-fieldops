@@ -2,12 +2,12 @@ import Head from "next/head";
 
 function ApplyToCourse() {
   return (
-    <div className="flex hidden">
+    <div className="flex">
       <a
         className="block w-full md:w-auto text-center px-10 py-4 bg-gray-900 text-primary-500 border border-primary-500 font-bold font-montserrat rounded shadow-lg hover:shadow-xl hover:bg-primary-500 hover:text-gray-900 transition duration-250 ease-in-out"
-        href="https://apply.pupilfirst.org"
+        href="#"
       >
-        Apply for Fellowship
+        Applications to open soon
       </a>
     </div>
   );
@@ -351,12 +351,12 @@ export default function Home() {
                           Fieldops Reserve Cadre to assist in Covid19
                           management.
                         </p>
-                        <div className="pt-4 hidden">
+                        <div className="pt-4">
                           <a
                             className="block px-10 py-4 text-center bg-gradient-to-b from-primary-500 to-primary-700 text-gray-900 border border-primary-500 font-bold font-montserrat rounded shadow-lg hover:shadow-xl hover:from-gray-800 hover:to-gray-900 hover:text-primary-500 transition duration-250 ease-in-out"
-                            href="https://apply.pupilfirst.org"
+                            href="#"
                           >
-                            Apply for Fellowship
+                            Applications to open soon
                           </a>
                         </div>
                       </div>
@@ -976,7 +976,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="max-w-3xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0 hidden">
+              <div className="max-w-3xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
                 <div className="rounded-lg bg-gradient-to-b from-primary-400 to-primary-700 p-6 lg:p-12">
                   <h4 className="text-xl lg:text-3xl font-montserrat font-bold text-center">
                     Apply now for
@@ -985,9 +985,9 @@ export default function Home() {
                   <div className="mt-4 flex justify-center">
                     <a
                       className="block text-center px-10 py-4 bg-gray-900 text-primary-500 border border-primary-500 font-bold font-montserrat rounded shadow-lg hover:shadow-xl hover:bg-primary-900 hover:text-gray-900 transition duration-250 ease-in-out"
-                      href="https://apply.pupilfirst.org"
+                      href="#"
                     >
-                      Apply for Fellowship
+                      Applications to open soon
                     </a>
                   </div>
                 </div>
