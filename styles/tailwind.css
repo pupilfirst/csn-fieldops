@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply font-spacemono;
+  @apply font-body;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -30,7 +30,10 @@ body {
   }
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   @apply font-bold;
 }
 
@@ -61,8 +64,8 @@ h4 {
 }
 
 .heading-with-leftborder::before {
-  @apply absolute bg-primary-500 rounded-r-md h-full top-0 left-0;
-  content: '';
+  @apply absolute bg-gradient-to-br from-primary-400 to-primary-700 shadow-lg rounded-r-md h-full top-0 left-0;
+  content: "";
   width: 4px;
 }
 
@@ -78,13 +81,13 @@ h4 {
 
 .heading-with-underscore::before {
   @apply absolute bg-white h-0.5 w-4;
-  content: '';
+  content: "";
   bottom: 10px;
   left: 4px;
 }
 
 .terminal-container-bg {
-  background-color: #19191A;
+  background-color: #19191a;
 }
 
 .testimonial-blockquote {
@@ -93,7 +96,7 @@ h4 {
 
 .testimonial-blockquote::before {
   @apply absolute h-6 top-0 left-0 w-6 ml-4;
-  content: '';
+  content: "";
   background-repeat: no-repeat;
   background-image: url(".././public/testimonial/quote-icon-green.svg");
 }
