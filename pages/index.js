@@ -13,22 +13,6 @@ function ApplyToCourse() {
   );
 }
 
-function HeroCharacter({ caption, imgSrc }) {
-  return (
-    <div className="flex-shrink-0">
-      <img
-        src={imgSrc}
-        alt={caption}
-        className={"bg-contain w-40 lg:w-auto mx-auto"}
-      />
-      <p className="text-3xl lg:text-4xl text-black border-black mb-4">
-        {caption}
-      </p>
-    </div>
-  );
-}
-
-
 function ImageWithDescription({ name, caption, imgSrc }) {
   return (
     <div>
@@ -105,26 +89,26 @@ export default function Home() {
             </div>
           </header>
           <div className="max-w-6xl flex flex-col md:flex-row justify-between mx-auto text-white pt-2 pb-12 px-4 xl:px-0">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-8">
-              <div className="w-full relative z-10">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-secondary-200 leading-tight lg:pt-4">
-                  <span className="text-2xl md:text-4xl font-light block pb-1 md:pb-2 text-secondary-100">Welcome to the</span>
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+              <div className="w-full lg:col-span-7 relative z-10">
+                <p className="text-2xl md:text-5xl font-light block leading-6 text-secondary-400">Welcome to the </p>
+                <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl font-extrabold leading-tight lg:pt-4">
                   Bharat Field Ops Fellowship!
                 </h1>
-                <p className="text-sm md:text-base lg:text-lg pt-2 lg:pt-4 lg:pr-12">
+                <p className="text-sm md:text-base text-secondary-100 lg:text-lg pt-2 lg:pt-4 lg:pr-12">
                   The 2nd Covid19 wave is tearing through the country and
                   overloading healthcare facilities.
                 </p>
-                <p className="text-sm md:text-base pt-4">Bharat Field-Ops Fellowship is a national programme to
+                <p className="text-sm md:text-base text-secondary-100 pt-4">Bharat Field-Ops Fellowship is a national programme to
                   identify and train 100,000 students in disaster management using
                   digital tools and become part of the Fieldops Reserve Cadre to
                   assist in Covid19 management.
                 </p>
                 <div className="mt-8">{ApplyToCourse()}</div>
               </div>
-              <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:ml-14 lg:relative">
+              <div className="lg:col-span-5 mt-2 lg:mt-0 lg:relative">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 w-full">
-                  <img className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  <img className="w-full lg:absolute lg:inset-y-0 lg:left-0"
                     src="hero/fieldops-hero.svg"
                     alt="Bharat FieldOps Fellowship! Icon"
                   />
@@ -182,7 +166,7 @@ export default function Home() {
         </section>
         <section className="bg-secondary-900 py-10 lg:py-20 relative">
           <div className="max-w-xl mx-auto text-white px-4 lg:px-0">
-            <div className="border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-800">
+            <div className="border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-700">
               <div className="flex space-x-2 px-6 py-3 border-b border-secondary-900">
                 <div className="w-3 h-3 bg-secondary-800 rounded-full"></div>
                 <div className="w-3 h-3 bg-secondary-800 rounded-full"></div>
@@ -337,7 +321,7 @@ export default function Home() {
                 </div>
                 <div className="lg:col-span-5 2xl:col-span-4">
                   <div className="sticky top-0 pl-0 pt-10 lg:pt-20 -ml-px md:ml-0">
-                    <div className="terminal-container-bg border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-800">
+                    <div className="terminal-container-bg border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-700">
                       <div className="flex space-x-2 px-6 py-3 border-b border-secondary-800">
                         <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
                         <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
