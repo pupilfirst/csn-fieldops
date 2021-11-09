@@ -17,14 +17,22 @@ function ImageWithDescription({ name, caption, imgSrc }) {
   return (
     <div>
       <div className="relative rounded-lg bg-gradient-to-br from-secondary-400 to-secondary-700 w-5/6 md:w-auto shadow-md ">
-        <img src={imgSrc} alt={caption} className="block w-full object-cover md:object-contain p-0.5 rounded-lg" />
+        <img
+          src={imgSrc}
+          alt={caption}
+          className="block w-full object-cover md:object-contain p-0.5 rounded-lg"
+        />
       </div>
-      <p className={"text-secondary-300 leading-tight font-semibold pt-3"}>{name}</p>
-      <p className={"text-sm text-secondary-100 leading-tight pt-2"}>
-        {caption}
+      <p
+        className={
+          "text-lg lg:text-xl text-secondary-300 leading-tight font-semibold pt-3"
+        }
+      >
+        {name}
       </p>
+      <p className={"text-secondary-100 leading-tight pt-2"}>{caption}</p>
     </div>
-  )
+  );
 }
 
 function StatsWithTitleAndDescription({ title, description }) {
@@ -44,7 +52,10 @@ export default function Home() {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
         <meta property="og:title" content="Bharat FieldOps Fellowship!" />
         <meta
           property="og:description"
@@ -82,33 +93,32 @@ export default function Home() {
           <header className="max-w-6xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
             <div className="flex justify-between items-center">
               <img
-                className="block w-20 md:w-28"
-                src="logos/bharat-fieldops-fellowship-logo.svg"
+                className="block w-56 md:w-72"
+                src="logos/GDC-fieldops-fellowship-logo.svg"
               />
-              <img className="block w-20 md:w-28" src="logos/aicte-logo.png" />
+              <img className="block w-20 md:w-24" src="logos/aicte-logo.png" />
             </div>
           </header>
           <div className="max-w-6xl flex flex-col md:flex-row justify-between mx-auto text-white pt-2 pb-12 px-4 xl:px-0">
             <div class="lg:grid lg:grid-cols-12 lg:gap-8">
               <div className="w-full lg:col-span-7 relative z-10">
-                <p className="text-2xl md:text-5xl font-light block leading-6 text-secondary-400">Welcome to the </p>
+                <p className="text-2xl md:text-5xl font-light block leading-6 text-secondary-400">
+                  Welcome to the{" "}
+                </p>
                 <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl font-extrabold leading-tight lg:pt-4">
-                  Bharat Field Ops Fellowship!
+                  GDC FieldOps Fellowship!
                 </h1>
                 <p className="text-sm md:text-base text-secondary-100 lg:text-lg pt-2 lg:pt-4 lg:pr-12">
-                  The 2nd Covid19 wave is tearing through the country and
-                  overloading healthcare facilities.
-                </p>
-                <p className="text-sm md:text-base text-secondary-100 pt-4">Bharat Field-Ops Fellowship is a national programme to
-                  identify and train 100,000 students in disaster management using
-                  digital tools and become part of the Fieldops Reserve Cadre to
-                  assist in Covid19 management.
+                  GDC FieldOps Fellowship is a national programme to identify
+                  and train 100,000 students in disaster management using
+                  digital tools and become part of the FieldOps Reserve Cadre.
                 </p>
                 <div className="mt-8">{ApplyToCourse()}</div>
               </div>
               <div className="lg:col-span-5 mt-2 lg:mt-0 lg:relative">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 w-full">
-                  <img className="w-full lg:absolute lg:inset-y-0 lg:left-0"
+                  <img
+                    className="w-full lg:absolute lg:inset-y-0 lg:left-0"
                     src="hero/fieldops-hero.svg"
                     alt="Bharat FieldOps Fellowship! Icon"
                   />
@@ -212,7 +222,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-          <section className="relative border-t border-secondary-800 bg-secondary-900">
+        <section className="relative border-t border-secondary-800 bg-secondary-900">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-secondary-800 mx-4 xl:mx-0">
               <div className="lg:grid lg:grid-cols-12 lg:gap-12 2xl:gap-5 px-0 pb-10 lg:pb-20">
@@ -231,8 +241,8 @@ export default function Home() {
                         What is this?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Experts led field-operations training in Covid19 disaster
-                        management using digital tools.
+                        Experts led field-operations training in Covid19
+                        disaster management using digital tools.
                       </p>
                     </div>
                     <div>
@@ -251,10 +261,10 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
                         Age 18+ students who have a deep desire to serve the
-                        nation and answer the Prime Minister's appeal to youth to
-                        come forward. Experience in Social service via NSS, NCC,
-                        NGO’s, or team work via University/College festivals,
-                        students startups etc is appreciated.
+                        nation and answer the Prime Minister's appeal to youth
+                        to come forward. Experience in Social service via NSS,
+                        NCC, NGO’s, or team work via University/College
+                        festivals, students startups etc is appreciated.
                       </p>
                     </div>
                     <div>
@@ -290,7 +300,8 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
                         Weekly Ask Me Anything Sessions with experts from World
-                        Health Organisation and Healthcare workers from the field.
+                        Health Organisation and Healthcare workers from the
+                        field.
                       </p>
                     </div>
                     <div>
@@ -309,13 +320,17 @@ export default function Home() {
                       <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
                         Certificate?
                       </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">Yes</p>
+                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
+                        Yes
+                      </p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
                         Cost
                       </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">Free</p>
+                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
+                        Free
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -328,13 +343,15 @@ export default function Home() {
                         <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
                       </div>
                       <div className="flex p-4 lg:p-6">
-                        <span className="text-secondary-400 text-xl">&#10142;</span>
+                        <span className="text-secondary-400 text-xl">
+                          &#10142;
+                        </span>
                         <div className="pl-3">
                           <p className="text-secondary-50 text-lg">
-                            Bharat Field-Ops Fellowship is a national programme to
-                            identify and train 100,000 students in disaster
-                            management using digital tools and become part of the
-                            Fieldops Reserve Cadre to assist in Covid19
+                            Bharat Field-Ops Fellowship is a national programme
+                            to identify and train 100,000 students in disaster
+                            management using digital tools and become part of
+                            the Fieldops Reserve Cadre to assist in Covid19
                             management.
                           </p>
                           <div className="pt-4">
@@ -398,17 +415,7 @@ export default function Home() {
                 />
               </svg>
               <div className="max-w-4xl mx-auto relative z-10 pl-4 lg:pl-0">
-                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 md:gap-8 lg:gap-12 py-12 lg:pb-16">
-                  <ImageWithDescription
-                    name="Air Marshal Balakrishnan Suresh"
-                    caption={
-                      <>
-                        PVSM, AVSM, VM, ADC, <br />
-                        Commander in Chief, Western Air Command (Retd)
-                      </>
-                    }
-                    imgSrc="people/Air_Marshal_Balakrishnan_Suresh_Indian_Air_Force.jpg"
-                  />
+                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-8 lg:gap-20 py-12 lg:pb-16">
                   <ImageWithDescription
                     name="Dr Shibu Balakrishnan"
                     caption={
@@ -420,16 +427,15 @@ export default function Home() {
                     imgSrc="people/Dr_Shibu_Balakrishnan.jpg"
                   />
                   <ImageWithDescription
-                    name="Dr Sachin Suresh"
+                    name="Air Marshal Balakrishnan Suresh"
                     caption={
                       <>
-                        MBBS, MS (ENT), <br />
-                        ENT Surgeon, Ernakulam
+                        PVSM, AVSM, VM, ADC, <br />
+                        Commander in Chief, Western Air Command (Retd)
                       </>
                     }
-                    imgSrc="people/Dr_Sachin_Suresh.jpg"
+                    imgSrc="people/Air_Marshal_Balakrishnan_Suresh_Indian_Air_Force.jpg"
                   />
-
                   <ImageWithDescription
                     name="Dr. Ajay Nair"
                     caption={
@@ -690,24 +696,30 @@ export default function Home() {
                 </div>
                 <div className="space-y-6 md:grid md:grid-col-2 lg:grid-cols-4 lg:gap-8 lg:space-y-0 lg:space-x-5 pt-8 pl-4 lg:pl-0">
                   <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">331+</h4>
+                    <h4 className="text-2xl lg:text-3xl text-primary-500">
+                      331+
+                    </h4>
                     <p className="pt-1 text-secondary-50">
                       Hospitals Using the platform
                     </p>
                   </div>
                   <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">145K+</h4>
+                    <h4 className="text-2xl lg:text-3xl text-primary-500">
+                      145K+
+                    </h4>
                     <p className="pt-1 text-secondary-50">Patients Managed</p>
                   </div>
                   <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">52K+</h4>
+                    <h4 className="text-2xl lg:text-3xl text-primary-500">
+                      52K+
+                    </h4>
                     <p className="pt-1 text-secondary-50">Shifting Managed</p>
                   </div>
                   <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">2L+</h4>
-                    <p className="pt-1 text-secondary-50">
-                      Telemedicine Calls
-                    </p>
+                    <h4 className="text-2xl lg:text-3xl text-primary-500">
+                      2L+
+                    </h4>
+                    <p className="pt-1 text-secondary-50">Telemedicine Calls</p>
                   </div>
                 </div>
                 <p className="text-xs italic pt-6 text-secondary-300 pl-4 xl:pl-0">
@@ -721,7 +733,9 @@ export default function Home() {
                       <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
                     </div>
                     <div className="flex p-4 lg:p-6">
-                      <span className="text-secondary-400 text-xl">&#10142;</span>
+                      <span className="text-secondary-400 text-xl">
+                        &#10142;
+                      </span>
                       <div className="pl-3">
                         <div className="text-secondary-50 space-y-6 text-base lg:text-lg">
                           <p>
@@ -932,7 +946,9 @@ export default function Home() {
                       <p className="col-span-3 text-secondary-300 lg:text-right">
                         May 28, 2021
                       </p>
-                      <p className="col-span-9 ml-8 text-secondary-100">- Program Ends</p>
+                      <p className="col-span-9 ml-8 text-secondary-100">
+                        - Program Ends
+                      </p>
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
