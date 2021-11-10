@@ -282,7 +282,7 @@ export default function Home() {
                         Effort?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        48 hours of highly enjoyable study & self-paced learning
+                        2 Weeks of highly enjoyable study & self-paced learning
                       </p>
                     </div>
                     <div>
