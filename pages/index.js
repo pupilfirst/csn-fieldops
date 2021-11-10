@@ -211,6 +211,15 @@ export default function Home() {
                 <div className="flex">
                   <span className="text-secondary-400 text-xl">&#10142;</span>
                   <p className="pl-3">
+                    Contribute your skills for supporting your{" "}
+                    <span className="text-secondary-200">
+                      local district administration
+                    </span>
+                  </p>
+                </div>
+                <div className="flex">
+                  <span className="text-secondary-400 text-xl">&#10142;</span>
+                  <p className="pl-3">
                     Meaningful{" "}
                     <span className="text-secondary-200">
                       Internship experience{" "}
