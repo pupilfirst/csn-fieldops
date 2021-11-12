@@ -311,7 +311,7 @@ export default function Home() {
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
                         A short management course on how disaster management
                         operations work and a technical training on using {" "}
-                        <a className="text-secondary-300 underline" target="_blank" 
+                        <a 
                         href="https://coronasafe.network/tools">
                            CoronaSafe Network tools.
                         </a>
@@ -646,6 +646,7 @@ export default function Home() {
                               students in India to become trained field operations
                               volunteers under expert guidance.
                             </p>
+                          
                             <p>
                               Successful students who complete the programme shall
                               get a semester long internship with CoronaSafe to
@@ -872,7 +873,15 @@ export default function Home() {
                         them through CoronaSafe Network.
                       </p>
                       <p className="pt-2 text-white">
-                        You shall also train on how the tooling for ICU works and how remote patient care is being enabled through CoronaSafe by eGovernments Foundation
+                        You shall also train on how the tooling for ICU works and how remote patient
+                         care is being enabled through CoronaSafe by {" "}
+                         <a
+                          className="text-secondary-300 underline" target="_blank"
+                          href="https://www.moes.gov.in/content/fundamental-duties"
+                        >
+                          eGovernments Foundation{" "}
+                        </a>
+                          
 
 
                       </p>
