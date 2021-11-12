@@ -877,7 +877,7 @@ export default function Home() {
                          care is being enabled through CoronaSafe by {" "}
                          <a
                           className="text-secondary-300 underline" target="_blank"
-                          href="https://www.moes.gov.in/content/fundamental-duties"
+                          href="https://egov.org.in/"
                         >
                           eGovernments Foundation{" "}
                         </a>
