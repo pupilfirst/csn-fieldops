@@ -310,9 +310,10 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
                         A short management course on how disaster management
-                        operations work and a technical training on using
-                        <a href="https://coronasafe.network/tools">
-                          CoronaSafe Network tools.
+                        operations work and a technical training on using {" "}
+                        <a className="text-secondary-300 underline" target="_blank" 
+                        href="https://coronasafe.network/tools">
+                           CoronaSafe Network tools.
                         </a>
                       </p>
                     </div>
@@ -837,7 +838,7 @@ export default function Home() {
 
                       <p className="pt-2 text-white">
                         <a
-                          className="text-secondary-300 underline"
+                          className="text-secondary-300 underline" target="_blank"
                           href="https://www.moes.gov.in/content/fundamental-duties"
                         >
                           Article 51-A{" "}
