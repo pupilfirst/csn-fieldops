@@ -870,7 +870,7 @@ export default function Home() {
                         to enable 300 Remote and Rural Districts in India with 10 ICU beds each and connect
                         them through CoronaSafe Network.
                       </p>
-                      <p className="pt-1 text-white">
+                      <p className="pt-2 text-white">
                         You shall also train on how the tooling for ICU works and how remote patient care is being enabled through CoronaSafe by eGovernments Foundation
 
 
@@ -963,7 +963,7 @@ export default function Home() {
                           "text-secondary-400 underline pl-2 tracking-wide font-medium"
                         }
                       >
-                        bharat@pupilfirst.org
+                        support@gdc.network
                       </a>
                     </p>
                   </div>
