@@ -958,7 +958,7 @@ export default function Home() {
                     <p className="text-secondary-100 pt-2">
                       Email us at
                       <a
-                        href="mailto:bharat@pupilfirst.org"
+                        href="mailto:support@gdc.network"
                         className={
                           "text-secondary-400 underline pl-2 tracking-wide font-medium"
                         }
