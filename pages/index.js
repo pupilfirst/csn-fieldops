@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <div className={""}>
       <Head>
-        <title>Bharat FieldOps Fellowship!</title>
+        <title>GDC FieldOps Fellowship!</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -56,7 +56,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:title" content="Bharat FieldOps Fellowship!" />
+        <meta property="og:title" content="GDC FieldOps Fellowship!" />
         <meta
           property="og:description"
           content="CoronaSafe Field-Ops Fellowship is a national programme to identify and train 200,000 students in disaster management training to become Field Operations and volunteer as the national engineering leadership cadre for public service"
@@ -120,7 +120,7 @@ export default function Home() {
                   <img
                     className="w-full lg:absolute lg:inset-y-0 lg:left-0"
                     src="hero/fieldops-hero.svg"
-                    alt="Bharat FieldOps Fellowship! Icon"
+                    alt="GDC FieldOps Fellowship! Icon"
                   />
                 </div>
               </div>
@@ -348,7 +348,7 @@ export default function Home() {
                         </span>
                         <div className="pl-3">
                           <p className="text-secondary-50 text-lg">
-                            Bharat Field-Ops Fellowship is a national programme
+                            GDC Field-Ops Fellowship is a national programme
                             to identify and train 100,000 students in disaster
                             management using digital tools and become part of
                             the Fieldops Reserve Cadre to assist in Covid19
@@ -972,7 +972,7 @@ export default function Home() {
                   <div className="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-700 p-6 lg:p-12">
                     <h4 className="text-xl lg:text-3xl text-secondary-900 font-bold text-center">
                       Apply now for
-                      <br /> Bharat FieldOps Fellowship!!
+                      <br /> GDC FieldOps Fellowship!!
                     </h4>
                     <div className="mt-4 flex justify-center">
                       <a
