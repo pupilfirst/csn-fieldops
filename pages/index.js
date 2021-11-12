@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <div className={""}>
       <Head>
-        <title>Bharat FieldOps Fellowship!</title>
+        <title>GDC FieldOps Fellowship!</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -56,7 +56,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:title" content="Bharat FieldOps Fellowship!" />
+        <meta property="og:title" content="GDC FieldOps Fellowship!" />
         <meta
           property="og:description"
           content="CoronaSafe Field-Ops Fellowship is a national programme to identify and train 200,000 students in disaster management training to become Field Operations and volunteer as the national engineering leadership cadre for public service"
@@ -120,7 +120,7 @@ export default function Home() {
                   <img
                     className="w-full lg:absolute lg:inset-y-0 lg:left-0"
                     src="hero/fieldops-hero.svg"
-                    alt="Bharat FieldOps Fellowship! Icon"
+                    alt="GDC FieldOps Fellowship! Icon"
                   />
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Home() {
                         Effort?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        48 hours of highly enjoyable study & self-paced learning
+                        2 Weeks of highly enjoyable study & self-paced learning
                       </p>
                     </div>
                     <div>
@@ -319,9 +319,10 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
                         A short management course on how disaster management
-                        operations work and a technical training on using
-                        <a href="https://coronasafe.network/tools">
-                          CoronaSafe Network tools.
+                        operations work and a technical training on using {" "}
+                        <a 
+                        href="https://coronasafe.network/tools">
+                           CoronaSafe Network tools.
                         </a>
                       </p>
                     </div>
@@ -357,7 +358,7 @@ export default function Home() {
                         </span>
                         <div className="pl-3">
                           <p className="text-secondary-50 text-lg">
-                            Bharat Field-Ops Fellowship is a national programme
+                            GDC Field-Ops Fellowship is a national programme
                             to identify and train 100,000 students in disaster
                             management using digital tools and become part of
                             the Fieldops Reserve Cadre to assist in Covid19
@@ -578,14 +579,9 @@ export default function Home() {
                 <div className="space-y-6 max-w-3xl text-secondary-50 lg:text-lg">
                   <p className="mt-4">
                     This program is created by a team of over a dozen people
-                    from across multiple companies, with funding from the ACT
-                    foundation.
+                    from across multiple companies, with donor funding from Schmidt Futures and Facebook(India)
                   </p>
-                  <p>
-                    ACT is a 100 crore fund setup by India’s leading tech
-                    entrepreneurs and venture capitalists for supporting efforts
-                    combating COVID-19. CoronaSafe is a recipient of ACT grants.
-                  </p>
+
                   <p>
                     This funding enables us to offer the course to you for free.
                   </p>
@@ -593,43 +589,116 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+              <div className="border-l border-secondary-800 mx-4 xl:mx-0">
+                <div className="pt-10 lg:pt-16">
+                  <div className="heading-with-leftborder">
+                    <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
+                      Impact
+                    </h2>
+                  </div>
+                </div>
+                <div className="max-w-4xl mx-auto">
+                  <div className="mt-4 pl-4 lg:pl-0">
+                    <img
+                      className="object-cover rounded-md "
+                      src="csn/impact.png"
+                    />
+                  </div>
+                  <div className="space-y-6 md:grid md:grid-col-2 lg:grid-cols-4 lg:gap-8 lg:space-y-0 lg:space-x-5 pt-8 pl-4 lg:pl-0">
+                    <div>
+                      <h4 className="text-2xl lg:text-3xl text-primary-500">
+                        465+
+                      </h4>
+                      <p className="pt-1 text-secondary-50">
+                        Hospitals Using the platform
+                      </p>
+                    </div>
+                    <div>
+                      <h4 className="text-2xl lg:text-3xl text-primary-500">
+                        338K+
+                      </h4>
+                      <p className="pt-1 text-secondary-50">Patients Managed</p>
+                    </div>
+                    <div>
+                      <h4 className="text-2xl lg:text-3xl text-primary-500">
+                        130K+
+                      </h4>
+                      <p className="pt-1 text-secondary-50">Shifting Managed</p>
+                    </div>
+                    <div>
+                      <h4 className="text-2xl lg:text-3xl text-primary-500">
+                        200K+
+                      </h4>
+                      <p className="pt-1 text-secondary-50">Telemedicine Calls</p>
+                    </div>
+                  </div>
+                  <p className="text-xs italic pt-6 text-secondary-300 pl-4 xl:pl-0">
+                    * Stats as of October 13th, 2021
+                  </p>
+                  <div className="py-10 lg:pb-20 pl-4 lg:pl-0">
+                    <div className="bg-gradient-to-br from-secondary-800 to-secondary-900 border rounded-lg shadow-xl border-secondary-700">
+                      <div className="flex space-x-1.5 px-6 py-3 border-b border-secondary-700">
+                        <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
+                        <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
+                        <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
+                      </div>
+                      <div className="flex p-4 lg:p-6">
+                        <span className="text-secondary-400 text-xl">
+                          &#10142;
+                        </span>
+                        <div className="pl-3">
+                          <div className="text-secondary-50 space-y-6 text-base lg:text-lg">
+                            <p>
+                              We are now looking to select 100,000 of the best
+                              students in India to become trained field operations
+                              volunteers under expert guidance.
+                            </p>
+                          
+                            <p>
+                              Successful students who complete the programme shall
+                              get a semester long internship with CoronaSafe to
+                              contribute in deploying and managing CoronaSafe
+                              tools to more districts in India.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-secondary-800 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                    Work alongside CoronaSafe Engineering Fellows
+                    Work alongside GDC Engineering Fellows
                   </h2>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="space-y-6 max-w-3xl text-secondary-50 lg:text-lg">
                   <p className="mt-4">
-                    CoronaSafe Network codebase is a national asset created by
-                    India’s leading software industry engineers along with the
-                    National Health Mission, Government of India and Department
-                    of Health, Government of Kerala.
+                    CoronaSafe Network is recognised by the United Nations as a global digital public good.
                   </p>
                   <p>
-                    During the first Covid19 wave in March 2020, over 300+
-                    industry software engineers voluntarily contributed to build
-                    CoronaSafe Network. The software is currently being used in
-                    over 300 hospitals to record patient intake and availability
-                    of facilities. This results in a central dashboard used by
-                    the Ernakulam district collector’s office for monitoring and
-                    allocating resources.
+                    CoronaSafe was initially co-created by over 300+ India’s leading software industry engineers along with the National Health Mission, Government of India and Department of Health, Government of Kerala during the first Covid wave in March 2020.
+
                   </p>
                   <p>
                     In Jan 2021, 50,482 students applied for{" "}
                     <a href="https://fullstack.pupilfirst.org/">
-                      CoronaSafe Engineering Fellowships{" "}
+                      Engineering Fellowships{" "}
                     </a>
-                    from which 18 students were selected and successfully
-                    completed industry led software training for continous
-                    upgradation of CoroanSafe Network. You shall work alongside
-                    india’s top software engineering students and give inputs
-                    from the field to improve operational efficiency of the
-                    software and processes.
+                    from which 14 students successfully completed industry led software training and from March 2021, the upgradation of the software used in war-rooms is done by trained engineering students.
+                  </p>
+                  <p>
+                    If selected to the Field Ops Division, you may work alongside India's top software engineering students and give inputs from the field to improve operational efficiency of the software and processes.
+
                   </p>
                 </div>
               </div>
@@ -686,104 +755,22 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-              <div className="pt-10 lg:pt-16">
-                <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                    Impact
-                  </h2>
-                </div>
-              </div>
-              <div className="max-w-4xl mx-auto">
-                <div className="mt-4 pl-4 lg:pl-0">
-                  <img
-                    className="object-cover rounded-md "
-                    src="csn/impact.png"
-                  />
-                </div>
-                <div className="space-y-6 md:grid md:grid-col-2 lg:grid-cols-4 lg:gap-8 lg:space-y-0 lg:space-x-5 pt-8 pl-4 lg:pl-0">
-                  <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">
-                      331+
-                    </h4>
-                    <p className="pt-1 text-secondary-50">
-                      Hospitals Using the platform
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">
-                      145K+
-                    </h4>
-                    <p className="pt-1 text-secondary-50">Patients Managed</p>
-                  </div>
-                  <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">
-                      52K+
-                    </h4>
-                    <p className="pt-1 text-secondary-50">Shifting Managed</p>
-                  </div>
-                  <div>
-                    <h4 className="text-2xl lg:text-3xl text-primary-500">
-                      2L+
-                    </h4>
-                    <p className="pt-1 text-secondary-50">Telemedicine Calls</p>
-                  </div>
-                </div>
-                <p className="text-xs italic pt-6 text-secondary-300 pl-4 xl:pl-0">
-                  * Stats as of April 22, 2021
-                </p>
-                <div className="py-10 lg:pb-20 pl-4 lg:pl-0">
-                  <div className="bg-gradient-to-br from-secondary-800 to-secondary-900 border rounded-lg shadow-xl border-secondary-700">
-                    <div className="flex space-x-1.5 px-6 py-3 border-b border-secondary-700">
-                      <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
-                      <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
-                      <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
-                    </div>
-                    <div className="flex p-4 lg:p-6">
-                      <span className="text-secondary-400 text-xl">
-                        &#10142;
-                      </span>
-                      <div className="pl-3">
-                        <div className="text-secondary-50 space-y-6 text-base lg:text-lg">
-                          <p>
-                            We are now looking to select 100,000 of the best
-                            students in India to become trained field operations
-                            volunteers under expert guidance.
-                          </p>
-                          <p>
-                            Successful students who complete the programme shall
-                            get a semester long internship with CoronaSafe to
-                            contribute in deploying and managing CoronaSafe
-                            tools to more districts in India.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
         <section>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-secondary-800 mx-4 xl:mx-0">
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="space-y-12 max-w-3xl pt-10 lg:pt-20">
+                <div className="space-y-12 max-w-3xl py-10 lg:py-20">
                   <div>
                     <h4 className="text-primary-500 text-xl lg:text-3xl font-bold">
                       Join the Community Response Network
                     </h4>
                     <p className="text-secondary-50 lg:text-lg pt-2">
-                      This is an AICTE backed course that shall give you a real
-                      understanding of how pandemic management and government
-                      systems work in general. You shall also get training into
-                      operating the real software tools that healthforce workers
-                      use in the field. Once you complete your training
-                      successfully, you shall be inducted into the Field
-                      Operations Reserve Cadre to deploy CoronaSafe Network in
+                      This is a simple course designed to give a student a basic understanding
+                      of how pandemic management and government systems work in general.
+                      You shall also get training into operating the real software tools that healthforce workers
+                      use in the field. Once you complete your training successfully, you shall be inducted into
+                      the Field Operations Cadre to deploy CoronaSafe Network in your district/state.
                       your district.
                     </p>
                   </div>
@@ -809,86 +796,59 @@ export default function Home() {
                       across the country
                     </h4>
                     <p className="text-secondary-50 lg:text-lg pt-2">
-                      This programme is open to all college from across the
-                      country and you will team up with them to work together to
-                      strengthen the fight against Covid. You shall also work
-                      alongside 18 CoronaSafe Engineering Fellows who have
-                      undergone a 12 week intensive training and are now working
-                      under industry guidance to upgrade the open-source tools.
-                      You will learn to collaborate with them through git,
-                      GitHub and file product upgrades that are necessary for
-                      improving efficiency of field operations. You will have
-                      access to a community forum for discussions as well as a
-                      Discord server for conversations. There will be a kind and
-                      respectful code of conduct to make the experience
-                      welcoming for everyone.
+                      This programme is open to students from all colleges from across the country
+                      and you will team up with them to work together to strengthen the fight against Covid.
+                    </p>
+                    <p className="text-secondary-50 lg:text-lg pt-2">
+                      You will have access to a community forum for discussions as well as a Discord server for conversations.
+                      There will be a kind and respectful code of conduct to make the experience welcoming for everyone.
                     </p>
                   </div>
-                  <div className="space-y-4">
+                  <div className="space-y-12">
                     <div>
+
                       <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
-                        Skills
+                        Indian Field Operational Realities
                       </h4>
-                      <p className="text-secondary-50 lg:text-lg pt-2">
-                        You will learn a host of practical skills that will help
-                        you in kick starting your career and some lessons that
-                        will stay with you even long after.
-                      </p>
+
+
+                      <div>
+                        <p className="text-base lg:text-lg font-semibold text-secondary-400 pt-4">
+                          Real world experience and understanding.
+                        </p>
+                        <p className="text-secondary-50 lg:text-lg pt-1">
+                          CoronaSafe Network is a fully functioning battle-tested solution
+                          that has managed over 3 Lakh patients. You shall learn about how
+                          various government departments come together to fight the virus,
+                          observe what gaps are there and find solutions to fill those gaps.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="text-base lg:text-lg font-semibold text-secondary-400 pt-4">
+                          Be a part of Reserve Force
+                        </p>
+                        <p className="pt-1 text-white">
+                          Your mission is to learn how to operate CoronaSafe Network
+                          as a power-user and learn to integrate it with various healthcare
+                          facilities in your district. The deployments across India are progressing state
+                          by state with focus on North Eastern States, Telangana, Karnataka, Uttar Pradesh,
+                          Madhya Pradesh, Kerala and Tamil Nadu.
+
+                        </p>
+                      </div>
                     </div>
+
                     <div>
-                      <p className="text-base lg:text-lg font-semibold text-secondary-400">
-                        Real world experience and understanding.
-                      </p>
-                      <p className="text-secondary-50 lg:text-lg pt-2">
-                        Covid 19 is stress testing the indian healthcare system
-                        and disrupting normal life like never before. It is hard
-                        to predict{" "}
-                        <a
-                          className="text-primary-500 underline"
-                          href="https://www.theleaflet.in/difficult-to-predict-how-many-waves-of-covid-19-india-will-have-vaccine-specialist-sanjay-rai-pandemic/#"
-                        >
-                          how many waves of the virus are left{" "}
-                        </a>
-                        to hit india. Consensus is building amongst global
-                        epidemiologists that{" "}
-                        <a
-                          className="text-primary-500 underline"
-                          href="https://www.nature.com/articles/d41586-021-00396-2"
-                        >
-                          Covid19 is here to stay
-                        </a>
-                        . CoronaSafe Network is a fully functioning
-                        battle-tested solution that has managed over 1.5 Lakh
-                        patients in Ernakulam, the largest district of Kerala.
-                        You shall learn about how various government departments
-                        come together to fight the virus, observe what gaps are
-                        there and find solutions to fill those gaps
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-base lg:text-lg font-semibold text-secondary-400">
-                        Be a part of Reserve Force
-                      </p>
-                      <p className="pt-2 text-white">
-                        The field health-force across the country is going
-                        through tremendous physical and mental exhaustion,
-                        caused by being in the operational front over the last
-                        13 months. As vaccinations have additionally started,
-                        the load on healthcare workers have increased manifold
-                        and we need to support district administrations to
-                        operationalise digital tools. Your mission is to learn
-                        how to operate CoronaSafe Network as a power-user and
-                        learn to integrate it with various healthcare facilities
-                        in your district.
-                      </p>
-                    </div>
-                    <div>
-                      <p className="text-base lg:text-lg font-semibold text-secondary-400">
-                        Fundamental Duty to our nation
-                      </p>
+                      <div>
+                        <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
+                          Fundamental Duty to the nation
+                        </h4>
+
+                      </div>
+
                       <p className="pt-2 text-white">
                         <a
-                          className="text-primary-500 underline"
+                          className="text-secondary-300 underline" target="_blank"
                           href="https://www.moes.gov.in/content/fundamental-duties"
                         >
                           Article 51-A{" "}
@@ -901,12 +861,46 @@ export default function Home() {
                         service of the nation and ready to serve your state or
                         district administration, if the need so arises.
                       </p>
+
+
+
+                    </div>
+                    <div>
+                      <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
+                        10bedICU project
+                      </h4>
+                      <p className="pt-2 text-white">
+                        Covid19 exposed a critical gap in India’s healthcare ecosystem where intensive
+                        care is limited to major cities. To plug this gap, the <a
+                          className="text-secondary-300 underline"
+                          href="https://10bedicu.org/" target="_blank"
+                        >
+                          10BedICU{" "}
+                        </a>
+                        project was created
+                        to enable 300 Remote and Rural Districts in India with 10 ICU beds each and connect
+                        them through CoronaSafe Network.
+                      </p>
+                      <p className="pt-2 text-white">
+                        You shall also train on how the tooling for ICU works and how remote patient
+                         care is being enabled through CoronaSafe by {" "}
+                         <a
+                          className="text-secondary-300 underline" target="_blank"
+                          href="https://www.moes.gov.in/content/fundamental-duties"
+                        >
+                          eGovernments Foundation{" "}
+                        </a>
+                          
+
+
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
             <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
               <div className="border-l border-secondary-800 mx-4 xl:mx-0">
@@ -983,12 +977,12 @@ export default function Home() {
                     <p className="text-secondary-100 pt-2">
                       Email us at
                       <a
-                        href="mailto:bharat@pupilfirst.org"
+                        href="mailto:support@gdc.network"
                         className={
                           "text-secondary-400 underline pl-2 tracking-wide font-medium"
                         }
                       >
-                        bharat@pupilfirst.org
+                        support@gdc.network
                       </a>
                     </p>
                   </div>
@@ -997,7 +991,7 @@ export default function Home() {
                   <div className="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-700 p-6 lg:p-12">
                     <h4 className="text-xl lg:text-3xl text-secondary-900 font-bold text-center">
                       Apply now for
-                      <br /> Bharat FieldOps Fellowship!!
+                      <br /> GDC FieldOps Fellowship!!
                     </h4>
                     <div className="mt-4 flex justify-center">
                       <a
