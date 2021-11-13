@@ -1027,12 +1027,15 @@ export default function Home() {
                       <br /> GDC FieldOps Fellowship!!
                     </h4>
                     <div className="mt-4 flex justify-center">
-                      <a
+                      {/* <a
                         className="block text-center px-10 py-4 bg-gradient-to-br from-secondary-800 to-secondary-900 text-yellow-500 font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
                         href="#"
                       >
                         Applications to open soon
-                      </a>
+                      </a> */}
+                      <p className="text-secondary-900 bg-yellow-400 p-4 rounded-lg bg-opacity-10 lg:text-xl font-semibold">
+                        Applications to open soon!
+                      </p>
                     </div>
                   </div>
                 </div>
