@@ -113,7 +113,9 @@ export default function Home() {
                   and train 100,000 students in disaster management using
                   digital tools and become part of the FieldOps Reserve Cadre.
                 </p>
-                <div className="mt-8">{ApplyToCourse()}</div>
+                <div className="mt-8 lg:text-xl font-semibold bg-secondary-700 inline-block p-4 bg-opacity-20 rounded-lg text-primary-500">
+                  Applications to open soon
+                </div>
               </div>
               <div className="lg:col-span-5 mt-2 lg:mt-0 lg:relative">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 w-full">
@@ -319,10 +321,13 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
                         A short management course on how disaster management
-                        operations work and a technical training on using {" "}
-                        <a 
-                        href="https://coronasafe.network/tools">
-                           CoronaSafe Network tools.
+                        operations work and a technical training on using{" "}
+                        <a
+                          className="text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
+                          target="_blank"
+                          href="https://coronasafe.network/tools"
+                        >
+                          CoronaSafe Network tools.
                         </a>
                       </p>
                     </div>
@@ -358,19 +363,22 @@ export default function Home() {
                         </span>
                         <div className="pl-3">
                           <p className="text-secondary-50 text-lg">
-                            GDC Field-Ops Fellowship is a national programme
-                            to identify and train 100,000 students in disaster
+                            GDC Field-Ops Fellowship is a national programme to
+                            identify and train 100,000 students in disaster
                             management using digital tools and become part of
                             the Fieldops Reserve Cadre to assist in Covid19
                             management.
                           </p>
                           <div className="pt-4">
-                            <a
+                            {/* <a
                               className="block w-full md:w-auto text-center px-10 py-4 bg-gradient-to-br from-yellow-300 to-yellow-600 text-secondary-900 font-bold rounded-md shadow-lg hover:shadow-xl hover:from-yellow-400 hover:to-yellow-700 transition duration-250 ease-in-out"
                               href="#"
                             >
                               Applications to open soon
-                            </a>
+                            </a> */}
+                            <div className="lg:text-lg font-semibold bg-secondary-700 inline-block p-4 bg-opacity-20 rounded-lg text-primary-500">
+                              Applications to open soon
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -501,7 +509,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto text-secondary-50">
-                <div className="pt-8 pb-20 space-y-12 md:space-y-20">
+                <div className="py-8 lg:pb-20 space-y-12 md:space-y-20 lg:text-lg">
                   <blockquote className="testimonial-blockquote pl-12 lg:pl-16">
                     It has been a truly invaluable learning experience and has
                     learnt from all the constructive input and guidance
@@ -552,7 +560,7 @@ export default function Home() {
         <section className="bg-secondary-900">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-              <div className="max-w-4xl ml-4 lg:mx-auto text-white pt-0 lg:pt-20">
+              <div className="max-w-4xl ml-4 lg:mx-auto text-white pt-0 lg:py-20">
                 <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl border border-primary-700">
                   <iframe
                     width="560"
@@ -566,30 +574,33 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-              <div className="pt-10 lg:pt-16">
-                <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                    Free
-                  </h2>
-                </div>
-              </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="space-y-6 max-w-3xl text-secondary-50 lg:text-lg">
-                  <p className="mt-4">
-                    This program is created by a team of over a dozen people
-                    from across multiple companies, with donor funding from Schmidt Futures and Facebook(India)
-                  </p>
 
-                  <p>
-                    This funding enables us to offer the course to you for free.
-                  </p>
+          <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+              <div className="border-l border-secondary-800 mx-4 xl:mx-0">
+                <div className="pt-10 lg:pt-16">
+                  <div className="heading-with-leftborder">
+                    <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
+                      Free
+                    </h2>
+                  </div>
+                </div>
+                <div className="max-w-4xl mx-auto pl-4 lg:pl-0 pb-10 lg:pb-16">
+                  <div className="space-y-6 max-w-3xl text-secondary-50 lg:text-lg">
+                    <p className="mt-4">
+                      This program is created by a team of over a dozen people
+                      from across multiple companies, with donor funding from
+                      Schmidt Futures and Facebook(India)
+                    </p>
+
+                    <p>
+                      This funding enables us to offer the course to you for
+                      free.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
             <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
               <div className="border-l border-secondary-800 mx-4 xl:mx-0">
                 <div className="pt-10 lg:pt-16">
@@ -631,7 +642,9 @@ export default function Home() {
                       <h4 className="text-2xl lg:text-3xl text-primary-500">
                         200K+
                       </h4>
-                      <p className="pt-1 text-secondary-50">Telemedicine Calls</p>
+                      <p className="pt-1 text-secondary-50">
+                        Telemedicine Calls
+                      </p>
                     </div>
                   </div>
                   <p className="text-xs italic pt-6 text-secondary-300 pl-4 xl:pl-0">
@@ -652,15 +665,15 @@ export default function Home() {
                           <div className="text-secondary-50 space-y-6 text-base lg:text-lg">
                             <p>
                               We are now looking to select 100,000 of the best
-                              students in India to become trained field operations
-                              volunteers under expert guidance.
+                              students in India to become trained field
+                              operations volunteers under expert guidance.
                             </p>
-                          
+
                             <p>
-                              Successful students who complete the programme shall
-                              get a semester long internship with CoronaSafe to
-                              contribute in deploying and managing CoronaSafe
-                              tools to more districts in India.
+                              Successful students who complete the programme
+                              shall get a semester long internship with
+                              CoronaSafe to contribute in deploying and managing
+                              CoronaSafe tools to more districts in India.
                             </p>
                           </div>
                         </div>
@@ -683,30 +696,44 @@ export default function Home() {
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="space-y-6 max-w-3xl text-secondary-50 lg:text-lg">
                   <p className="mt-4">
-                    CoronaSafe Network is recognised by the United Nations as a global digital public good.
+                    CoronaSafe Network is recognised by the United Nations as a
+                    global digital public good.
                   </p>
                   <p>
-                    CoronaSafe was initially co-created by over 300+ India’s leading software industry engineers along with the National Health Mission, Government of India and Department of Health, Government of Kerala during the first Covid wave in March 2020.
-
+                    CoronaSafe was initially co-created by over 300+ India’s
+                    leading software industry engineers along with the National
+                    Health Mission, Government of India and Department of
+                    Health, Government of Kerala during the first Covid wave in
+                    March 2020.
                   </p>
                   <p>
                     In Jan 2021, 50,482 students applied for{" "}
-                    <a href="https://fullstack.pupilfirst.org/">
-                      Engineering Fellowships{" "}
-                    </a>
-                    from which 14 students successfully completed industry led software training and from March 2021, the upgradation of the software used in war-rooms is done by trained engineering students.
+                    <a
+                      className="text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
+                      href="https://fullstack.pupilfirst.org/"
+                      target="_blank"
+                    >
+                      Engineering Fellowships
+                    </a>{" "}
+                    from which 14 students successfully completed industry led
+                    software training and from March 2021, the upgradation of
+                    the software used in war-rooms is done by trained
+                    engineering students.
                   </p>
                   <p>
-                    If selected to the Field Ops Division, you may work alongside India's top software engineering students and give inputs from the field to improve operational efficiency of the software and processes.
-
+                    If selected to the Field Ops Division, you may work
+                    alongside India's top software engineering students and give
+                    inputs from the field to improve operational efficiency of
+                    the software and processes.
                   </p>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 mt-4 pb-8 lg:pb-16">
+              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 mt-4 pb-8">
                 <div className="text-secondary-400 flex space-x-6">
                   <a
-                    className="flex items-center space-x-2 cursor-pointer"
+                    className="flex items-center space-x-2 cursor-pointer text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
                     href="https://github.com/coronasafe/"
+                    target="_blank"
                   >
                     <div className="h-4 w-4">
                       <svg
@@ -728,8 +755,9 @@ export default function Home() {
                     <span>GitHub</span>
                   </a>
                   <a
-                    className="flex items-center space-x-2 cursor-pointer"
+                    className="flex items-center space-x-2 cursor-pointer text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
                     href="https://coronasafe.network/tools"
+                    target="_blank"
                   >
                     <div className="h-4 w-4">
                       <svg
@@ -766,12 +794,14 @@ export default function Home() {
                       Join the Community Response Network
                     </h4>
                     <p className="text-secondary-50 lg:text-lg pt-2">
-                      This is a simple course designed to give a student a basic understanding
-                      of how pandemic management and government systems work in general.
-                      You shall also get training into operating the real software tools that healthforce workers
-                      use in the field. Once you complete your training successfully, you shall be inducted into
-                      the Field Operations Cadre to deploy CoronaSafe Network in your district/state.
-                      your district.
+                      This is a simple course designed to give a student a basic
+                      understanding of how pandemic management and government
+                      systems work in general. You shall also get training into
+                      operating the real software tools that healthforce workers
+                      use in the field. Once you complete your training
+                      successfully, you shall be inducted into the Field
+                      Operations Cadre to deploy CoronaSafe Network in your
+                      district/state. your district.
                     </p>
                   </div>
                   <div>
@@ -796,44 +826,48 @@ export default function Home() {
                       across the country
                     </h4>
                     <p className="text-secondary-50 lg:text-lg pt-2">
-                      This programme is open to students from all colleges from across the country
-                      and you will team up with them to work together to strengthen the fight against Covid.
+                      This programme is open to students from all colleges from
+                      across the country and you will team up with them to work
+                      together to strengthen the fight against Covid.
                     </p>
                     <p className="text-secondary-50 lg:text-lg pt-2">
-                      You will have access to a community forum for discussions as well as a Discord server for conversations.
-                      There will be a kind and respectful code of conduct to make the experience welcoming for everyone.
+                      You will have access to a community forum for discussions
+                      as well as a Discord server for conversations. There will
+                      be a kind and respectful code of conduct to make the
+                      experience welcoming for everyone.
                     </p>
                   </div>
                   <div className="space-y-12">
                     <div>
-
                       <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
                         Indian Field Operational Realities
                       </h4>
-
 
                       <div>
                         <p className="text-base lg:text-lg font-semibold text-secondary-400 pt-4">
                           Real world experience and understanding.
                         </p>
-                        <p className="text-secondary-50 lg:text-lg pt-1">
-                          CoronaSafe Network is a fully functioning battle-tested solution
-                          that has managed over 3 Lakh patients. You shall learn about how
-                          various government departments come together to fight the virus,
-                          observe what gaps are there and find solutions to fill those gaps.
+                        <p className="text-secondary-50 lg:text-lg pt-0.5">
+                          CoronaSafe Network is a fully functioning
+                          battle-tested solution that has managed over 3 Lakh
+                          patients. You shall learn about how various government
+                          departments come together to fight the virus, observe
+                          what gaps are there and find solutions to fill those
+                          gaps.
                         </p>
                       </div>
                       <div>
                         <p className="text-base lg:text-lg font-semibold text-secondary-400 pt-4">
                           Be a part of Reserve Force
                         </p>
-                        <p className="pt-1 text-white">
-                          Your mission is to learn how to operate CoronaSafe Network
-                          as a power-user and learn to integrate it with various healthcare
-                          facilities in your district. The deployments across India are progressing state
-                          by state with focus on North Eastern States, Telangana, Karnataka, Uttar Pradesh,
-                          Madhya Pradesh, Kerala and Tamil Nadu.
-
+                        <p className="pt-0.5 text-white">
+                          Your mission is to learn how to operate CoronaSafe
+                          Network as a power-user and learn to integrate it with
+                          various healthcare facilities in your district. The
+                          deployments across India are progressing state by
+                          state with focus on North Eastern States, Telangana,
+                          Karnataka, Uttar Pradesh, Madhya Pradesh, Kerala and
+                          Tamil Nadu.
                         </p>
                       </div>
                     </div>
@@ -843,16 +877,16 @@ export default function Home() {
                         <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
                           Fundamental Duty to the nation
                         </h4>
-
                       </div>
 
                       <p className="pt-2 text-white">
                         <a
-                          className="text-secondary-300 underline" target="_blank"
+                          className="text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
+                          target="_blank"
                           href="https://www.moes.gov.in/content/fundamental-duties"
                         >
-                          Article 51-A{" "}
-                        </a>
+                          Article 51-A
+                        </a>{" "}
                         of our constitution outlines the fundamental duties of
                         citizens of every citizen of india including to defend
                         the country and render national service when called upon
@@ -861,38 +895,37 @@ export default function Home() {
                         service of the nation and ready to serve your state or
                         district administration, if the need so arises.
                       </p>
-
-
-
                     </div>
                     <div>
                       <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
                         10bedICU project
                       </h4>
                       <p className="pt-2 text-white">
-                        Covid19 exposed a critical gap in India’s healthcare ecosystem where intensive
-                        care is limited to major cities. To plug this gap, the <a
-                          className="text-secondary-300 underline"
-                          href="https://10bedicu.org/" target="_blank"
+                        Covid19 exposed a critical gap in India’s healthcare
+                        ecosystem where intensive care is limited to major
+                        cities. To plug this gap, the{" "}
+                        <a
+                          className="text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
+                          href="https://10bedicu.org/"
+                          target="_blank"
                         >
-                          10BedICU{" "}
-                        </a>
-                        project was created
-                        to enable 300 Remote and Rural Districts in India with 10 ICU beds each and connect
+                          10BedICU
+                        </a>{" "}
+                        project was created to enable 300 Remote and Rural
+                        Districts in India with 10 ICU beds each and connect
                         them through CoronaSafe Network.
                       </p>
                       <p className="pt-2 text-white">
-                        You shall also train on how the tooling for ICU works and how remote patient
-                         care is being enabled through CoronaSafe by {" "}
-                         <a
-                          className="text-secondary-300 underline" target="_blank"
+                        You shall also train on how the tooling for ICU works
+                        and how remote patient care is being enabled through
+                        CoronaSafe by{" "}
+                        <a
+                          className="text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
+                          target="_blank"
                           href="https://egov.org.in/"
                         >
-                          eGovernments Foundation{" "}
-                        </a>
-                          
-
-
+                          eGovernments Foundation
+                        </a>{" "}
                       </p>
                     </div>
                   </div>
