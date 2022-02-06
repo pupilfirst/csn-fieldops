@@ -111,7 +111,7 @@ export default function Home() {
                 <p className="text-sm md:text-base text-secondary-100 lg:text-lg pt-2 lg:pt-4 lg:pr-12">
                   GDC FieldOps Fellowship is a national programme to identify
                   and train 100,000 students in disaster management using
-                  digital tools and become part of the FieldOps Reserve Cadre.
+                  digital tools and become part of the Emergency Reserve Cadre.
                 </p>
                 <div className="mt-8">{ApplyToCourse()}</div>
               </div>
@@ -241,7 +241,7 @@ export default function Home() {
                         What is this?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Experts led field-operations training in Covid19
+                        Experts led field-operations training in
                         disaster management using digital tools.
                       </p>
                     </div>
@@ -250,9 +250,7 @@ export default function Home() {
                         Why?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        To build capabilities in students to deploy and
-                        operationalise CoronaSafe disaster management tools in
-                        your district.
+                      Develop a student cadre of emergency reserve within each district/state in India  
                       </p>
                     </div>
                     <div>
@@ -272,9 +270,7 @@ export default function Home() {
                         When?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        May 08 - May 28, 2021
-                        <br />6 month internship thereafter for successful
-                        candidates.
+                        February 28 - April 14, 2022
                       </p>
                     </div>
                     <div>
@@ -295,16 +291,7 @@ export default function Home() {
                       </p>
                     </div>
                     <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Mentorship?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Weekly Ask Me Anything Sessions with experts from World
-                        Health Organisation and Healthcare workers from the
-                        field.
-                      </p>
-                    </div>
-                    <div>
+                     
                       <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
                         Curriculum?
                       </h3>
@@ -352,7 +339,7 @@ export default function Home() {
                             GDC Field-Ops Fellowship is a national programme
                             to identify and train 100,000 students in disaster
                             management using digital tools and become part of
-                            the Fieldops Reserve Cadre to assist in Covid19
+                            the Emergency Reserve Cadre to assist in Covid19
                             management.
                           </p>
                           <div className="pt-4">
