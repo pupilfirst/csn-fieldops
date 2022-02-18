@@ -208,16 +208,6 @@ export default function Home() {
                     </span>
                   </p>
                 </div>
-                <div className="flex">
-                  <span className="text-secondary-400 text-xl">&#10142;</span>
-                  <p className="pl-3">
-                    Meaningful{" "}
-                    <span className="text-secondary-200">
-                      Internship experience{" "}
-                    </span>
-                    for a life-time
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -339,8 +329,7 @@ export default function Home() {
                             GDC Field-Ops Fellowship is a national programme
                             to identify and train 100,000 students in disaster
                             management using digital tools and become part of
-                            the Emergency Reserve Cadre to assist in Covid19
-                            management.
+                            the Emergency Reserve Cadre to assist in disaster managament. 
                           </p>
                           <div className="pt-4">
                             <a
@@ -635,10 +624,8 @@ export default function Home() {
                             </p>
                           
                             <p>
-                              Successful students who complete the programme shall
-                              get a semester long internship with CoronaSafe to
-                              contribute in deploying and managing CoronaSafe
-                              tools to more districts in India.
+                              Students who complete the programme shall
+                              become part of Emergency Reserve Cadre for thier state.
                             </p>
                           </div>
                         </div>
@@ -654,7 +641,7 @@ export default function Home() {
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                    Work alongside GDC Engineering Fellows
+                     GDC Engineering Fellows
                   </h2>
                 </div>
               </div>
@@ -675,7 +662,9 @@ export default function Home() {
                     from which 14 students successfully completed industry led software training and from March 2021, the upgradation of the software used in war-rooms is done by trained engineering students.
                   </p>
                   <p>
-                    If selected to the Field Ops Division, you may work alongside India's top software engineering students and give inputs from the field to improve operational efficiency of the software and processes.
+                    GDC Engineering Fellowship Batch of 2022 was launched on 11 January 2022
+                     and 40 students were selected from 48,386 students across 35 states and 2226 institutions.
+                     Selected students are undergoing training in Django and Typescript courses. 
 
                   </p>
                 </div>
@@ -752,22 +741,7 @@ export default function Home() {
                       your district.
                     </p>
                   </div>
-                  <div>
-                    <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
-                      Ask Me Anything (AMA) with WHO experts, Doctors and Field
-                      Healthcare workers
-                    </h4>
-                    <p className="text-secondary-50 lg:text-lg pt-2">
-                      You will hear experience reports from people in the field
-                      who have been managing Coronavirus since March 2020. There
-                      will be no long, boring introductions; instead you will
-                      hear raw stories from the field, what are the key
-                      challenges and how Covid19 management is taking place.The
-                      best things about these AMAs are the free-wheeling
-                      question and answer session where you talk with the
-                      speakers about the most pressing questions in your mind.
-                    </p>
-                  </div>
+                  
                   <div>
                     <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
                       Fellowship with a diversified group of students from
@@ -775,10 +749,10 @@ export default function Home() {
                     </h4>
                     <p className="text-secondary-50 lg:text-lg pt-2">
                       This programme is open to students from all colleges from across the country
-                      and you will team up with them to work together to strengthen the fight against Covid.
+                      and you will team up with them to work together to strengthen the fight any emergency situations that may occur.
                     </p>
                     <p className="text-secondary-50 lg:text-lg pt-2">
-                      You will have access to a community forum for discussions as well as a Discord server for conversations.
+                      You will have access to a community forum for discussions.
                       There will be a kind and respectful code of conduct to make the experience welcoming for everyone.
                     </p>
                   </div>
@@ -806,11 +780,9 @@ export default function Home() {
                           Be a part of Reserve Force
                         </p>
                         <p className="pt-1 text-white">
-                          Your mission is to learn how to operate CoronaSafe Network
-                          as a power-user and learn to integrate it with various healthcare
-                          facilities in your district. The deployments across India are progressing state
-                          by state with focus on North Eastern States, Telangana, Karnataka, Uttar Pradesh,
-                          Madhya Pradesh, Kerala and Tamil Nadu.
+                        Your mission is to understand how different systems under state and district government coordinate 
+                        and work together in times of emergency. This will give you a basic knowledge about the disaster management
+                        system of our country so that you can volunteer at times of emergency.
 
                         </p>
                       </div>
