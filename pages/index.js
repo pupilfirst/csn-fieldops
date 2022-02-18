@@ -111,7 +111,7 @@ export default function Home() {
                 <p className="text-sm md:text-base text-secondary-100 lg:text-lg pt-2 lg:pt-4 lg:pr-12">
                   GDC FieldOps Fellowship is a national programme to identify
                   and train 100,000 students in disaster management using
-                  digital tools and become part of the FieldOps Reserve Cadre.
+                  digital tools and become part of the Emergency Reserve Cadre.
                 </p>
                 <div className="mt-8 lg:text-xl font-semibold bg-secondary-700 inline-block p-4 bg-opacity-20 rounded-lg text-primary-500">
                   Applications to open soon
@@ -210,25 +210,6 @@ export default function Home() {
                     </span>
                   </p>
                 </div>
-                <div className="flex">
-                  <span className="text-secondary-400 text-xl">&#10142;</span>
-                  <p className="pl-3">
-                    Contribute your skills for supporting your{" "}
-                    <span className="text-secondary-200">
-                      local district administration
-                    </span>
-                  </p>
-                </div>
-                <div className="flex">
-                  <span className="text-secondary-400 text-xl">&#10142;</span>
-                  <p className="pl-3">
-                    Meaningful{" "}
-                    <span className="text-secondary-200">
-                      Internship experience{" "}
-                    </span>
-                    for a life-time
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -252,8 +233,8 @@ export default function Home() {
                         What is this?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Experts led field-operations training in Covid19
-                        disaster management using digital tools.
+                        Experts led field-operations training in disaster
+                        management using digital tools.
                       </p>
                     </div>
                     <div>
@@ -261,9 +242,8 @@ export default function Home() {
                         Why?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        To build capabilities in students to deploy and
-                        operationalise CoronaSafe disaster management tools in
-                        your district.
+                        Develop a student cadre of emergency reserve within each
+                        district/state in India
                       </p>
                     </div>
                     <div>
@@ -274,7 +254,7 @@ export default function Home() {
                         Age 18+ students who have a deep desire to serve the
                         nation and answer the Prime Minister's appeal to youth
                         to come forward. Experience in Social service via NSS,
-                        NCC, NGO’s, or team work via University/College
+                        NCC, NGO's, or team work via University/College
                         festivals, students startups etc is appreciated.
                       </p>
                     </div>
@@ -283,9 +263,7 @@ export default function Home() {
                         When?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        May 08 - May 28, 2021
-                        <br />6 month internship thereafter for successful
-                        candidates.
+                        February 28 - April 14, 2022
                       </p>
                     </div>
                     <div>
@@ -303,16 +281,6 @@ export default function Home() {
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
                         Self-paced learning via video tutorials,with assistance
                         from experts and community.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Mentorship?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Weekly Ask Me Anything Sessions with experts from World
-                        Health Organisation and Healthcare workers from the
-                        field.
                       </p>
                     </div>
                     <div>
@@ -366,8 +334,8 @@ export default function Home() {
                             GDC Field-Ops Fellowship is a national programme to
                             identify and train 100,000 students in disaster
                             management using digital tools and become part of
-                            the Fieldops Reserve Cadre to assist in Covid19
-                            management.
+                            the Emergency Reserve Cadre to assist in disaster
+                            managament.
                           </p>
                           <div className="pt-4">
                             {/* <a
@@ -670,10 +638,8 @@ export default function Home() {
                             </p>
 
                             <p>
-                              Successful students who complete the programme
-                              shall get a semester long internship with
-                              CoronaSafe to contribute in deploying and managing
-                              CoronaSafe tools to more districts in India.
+                              Students who complete the programme shall become
+                              part of Emergency Reserve Cadre for thier state.
                             </p>
                           </div>
                         </div>
@@ -689,7 +655,7 @@ export default function Home() {
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                    Work alongside GDC Engineering Fellows
+                    GDC Engineering Fellows
                   </h2>
                 </div>
               </div>
@@ -700,7 +666,7 @@ export default function Home() {
                     global digital public good.
                   </p>
                   <p>
-                    CoronaSafe was initially co-created by over 300+ India’s
+                    CoronaSafe was initially co-created by over 300+ India's
                     leading software industry engineers along with the National
                     Health Mission, Government of India and Department of
                     Health, Government of Kerala during the first Covid wave in
@@ -721,10 +687,11 @@ export default function Home() {
                     engineering students.
                   </p>
                   <p>
-                    If selected to the Field Ops Division, you may work
-                    alongside India's top software engineering students and give
-                    inputs from the field to improve operational efficiency of
-                    the software and processes.
+                    GDC Engineering Fellowship Batch of 2022 was launched on 11
+                    January 2022 and 40 students were selected from 48,386
+                    students across 35 states and 2226 institutions. Selected
+                    students are undergoing training in Django and Typescript
+                    courses.
                   </p>
                 </div>
               </div>
@@ -799,27 +766,12 @@ export default function Home() {
                       systems work in general. You shall also get training into
                       operating the real software tools that healthforce workers
                       use in the field. Once you complete your training
-                      successfully, you shall be inducted into the Field
-                      Operations Cadre to deploy CoronaSafe Network in your
-                      district/state. your district.
+                      successfully, you shall be inducted into the Emergency
+                      Reserve Cadre to support district administrations efforts
+                      during emergency situation.
                     </p>
                   </div>
-                  <div>
-                    <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
-                      Ask Me Anything (AMA) with WHO experts, Doctors and Field
-                      Healthcare workers
-                    </h4>
-                    <p className="text-secondary-50 lg:text-lg pt-2">
-                      You will hear experience reports from people in the field
-                      who have been managing Coronavirus since March 2020. There
-                      will be no long, boring introductions; instead you will
-                      hear raw stories from the field, what are the key
-                      challenges and how Covid19 management is taking place.The
-                      best things about these AMAs are the free-wheeling
-                      question and answer session where you talk with the
-                      speakers about the most pressing questions in your mind.
-                    </p>
-                  </div>
+
                   <div>
                     <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
                       Fellowship with a diversified group of students from
@@ -828,13 +780,13 @@ export default function Home() {
                     <p className="text-secondary-50 lg:text-lg pt-2">
                       This programme is open to students from all colleges from
                       across the country and you will team up with them to work
-                      together to strengthen the fight against Covid.
+                      together to strengthen the fight any emergency situations
+                      that may occur.
                     </p>
                     <p className="text-secondary-50 lg:text-lg pt-2">
-                      You will have access to a community forum for discussions
-                      as well as a Discord server for conversations. There will
-                      be a kind and respectful code of conduct to make the
-                      experience welcoming for everyone.
+                      You will have access to a community forum for discussions.
+                      There will be a kind and respectful code of conduct to
+                      make the experience welcoming for everyone.
                     </p>
                   </div>
                   <div className="space-y-12">
@@ -860,14 +812,13 @@ export default function Home() {
                         <p className="text-base lg:text-lg font-semibold text-secondary-400 pt-4">
                           Be a part of Reserve Force
                         </p>
-                        <p className="pt-0.5 text-white">
-                          Your mission is to learn how to operate CoronaSafe
-                          Network as a power-user and learn to integrate it with
-                          various healthcare facilities in your district. The
-                          deployments across India are progressing state by
-                          state with focus on North Eastern States, Telangana,
-                          Karnataka, Uttar Pradesh, Madhya Pradesh, Kerala and
-                          Tamil Nadu.
+                        <p className="pt-1 text-white">
+                          Your mission is to understand how different systems
+                          under state and district government coordinate and
+                          work together in times of emergency. This will give
+                          you a basic knowledge about the disaster management
+                          system of our country so that you can volunteer at
+                          times of emergency.
                         </p>
                       </div>
                     </div>
@@ -890,7 +841,7 @@ export default function Home() {
                         of our constitution outlines the fundamental duties of
                         citizens of every citizen of india including to defend
                         the country and render national service when called upon
-                        to do so; As part of the Field Ops Reserve Force, you
+                        to do so; As part of the Emergency Reserve Force, you
                         shall have the basic training and skills to be in
                         service of the nation and ready to serve your state or
                         district administration, if the need so arises.
@@ -901,7 +852,7 @@ export default function Home() {
                         10bedICU project
                       </h4>
                       <p className="pt-2 text-white">
-                        Covid19 exposed a critical gap in India’s healthcare
+                        Covid19 exposed a critical gap in India's healthcare
                         ecosystem where intensive care is limited to major
                         cities. To plug this gap, the{" "}
                         <a
