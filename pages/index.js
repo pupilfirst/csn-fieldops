@@ -737,8 +737,7 @@ export default function Home() {
                       of how pandemic management and government systems work in general.
                       You shall also get training into operating the real software tools that healthforce workers
                       use in the field. Once you complete your training successfully, you shall be inducted into
-                      the Field Operations Cadre to deploy CoronaSafe Network in your district/state.
-                      your district.
+                      the Emergency Reserve Cadre to support district administrations efforts during emergency situation.
                     </p>
                   </div>
                   
@@ -806,7 +805,7 @@ export default function Home() {
                         of our constitution outlines the fundamental duties of
                         citizens of every citizen of india including to defend
                         the country and render national service when called upon
-                        to do so; As part of the Field Ops Reserve Force, you
+                        to do so; As part of the Emergency Reserve Force, you
                         shall have the basic training and skills to be in
                         service of the nation and ready to serve your state or
                         district administration, if the need so arises.
