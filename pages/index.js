@@ -89,8 +89,15 @@ export default function Home() {
         /> */}
       </Head>
       <main className="bg-secondary-900 mx-auto ">
-        <section className="bg-gradient-to-br from-secondary-800 to-secondary-900 border-b border-secondary-700 pb-20 overflow-hidden">
-          <header className="max-w-6xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
+        <section className="relative bg-gradient-to-br from-secondary-800 to-secondary-900 border-b border-secondary-700 pb-20 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img
+              className="h-full w-full object-cover"
+              src="hero/Globe-illustration.png"
+              alt="Illustration of a World Map showing GDC network connections"
+            />
+          </div>
+          <header className="max-w-6xl mx-auto py-4 lg:py-8 px-4 xl:px-0 relative z-10">
             <div className="flex justify-between items-center">
               <img
                 className="block w-56 md:w-72"
@@ -117,19 +124,10 @@ export default function Home() {
                   Applications to open soon
                 </div>
               </div>
-              <div className="lg:col-span-5 mt-2 lg:mt-0 lg:relative">
-                <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 w-full">
-                  <img
-                    className="w-full lg:absolute lg:inset-y-0 lg:left-0"
-                    src="hero/fieldops-hero.svg"
-                    alt="GDC FieldOps Fellowship! Icon"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </section>
-        <section className="-mt-20 mx-4 xl:mx-0">
+        <section className="-mt-20 mx-4 xl:mx-0 relative z-10">
           <div className="bg-white rounded-lg shadow-lg border border-secondary-700 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center text-center">
               <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-secondary-50 shadow-inner">
