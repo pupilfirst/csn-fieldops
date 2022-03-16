@@ -93,7 +93,7 @@ export default function Home() {
           <div className="absolute inset-0 z-0">
             <img
               className="h-full w-full object-cover"
-              src="hero/Globe-illustration.png"
+              src="hero/Globe-illustration.jpg"
               alt="Illustration of a World Map showing GDC network connections"
             />
           </div>
