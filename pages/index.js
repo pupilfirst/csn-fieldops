@@ -175,8 +175,41 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section className="bg-secondary-900 pt-12 pb-6 lg:pt-32 relative">
+          <div className="max-w-4xl mx-auto text-primary-500 px-4 lg:px-0 relative">
+            <div className="absolute -top-32 -left-36 z-0">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="w-64 h-64 text-primary-800 text-opacity-50"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
+              </svg>
+            </div>
+            <blockquotes
+              cite="https://www.washingtonpost.com/climate-environment/2022/02/28/ipcc-united-nations-climate-change-adaptation/"
+              className="relative text-xl md:text-3xl md:leading-relaxed z-10"
+            >
+              “Today's children who may still be alive in the year 2100 are
+              going to experience four times more climate extremes than they do
+              now. More people are going to die each year from heat waves,
+              diseases, extreme weather, air pollution and starvation because of
+              global warming”
+            </blockquotes>
+            <a
+              className="block text-base md:text-xl pt-5 text-secondary-300 underline"
+              href="https://www.washingtonpost.com/climate-environment/2022/02/28/ipcc-united-nations-climate-change-adaptation/"
+              target="_blank"
+            >
+              - United Nations Report on Climate Change, 27 February 2022.{" "}
+            </a>
+          </div>
+        </section>
         <section className="bg-secondary-900 py-10 lg:py-20 relative">
-          <div className="max-w-xl mx-auto text-white px-4 lg:px-0">
+          <div className="max-w-4xl mx-auto text-white px-4 lg:px-0">
             <div className="border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-700">
               <div className="flex space-x-2 px-6 py-3 border-b border-secondary-900">
                 <div className="w-3 h-3 bg-secondary-800 rounded-full"></div>
