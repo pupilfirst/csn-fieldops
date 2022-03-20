@@ -820,7 +820,7 @@ export default function Home() {
                   <div className="bg-gradient-to-br from-secondary-800 bg-secondary-900 border rounded-lg shadow-xl border-secondary-700 divide-y divide-secondary-700 mt-4">
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        March 14, 2022
+                        April 04, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
                         - Application Opens
@@ -828,7 +828,7 @@ export default function Home() {
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        April 17, 2022
+                        May 08, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
                         - Application Ends
@@ -836,7 +836,7 @@ export default function Home() {
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        May 01, 2022
+                        May 22, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
                         - Program Ends{" "}
@@ -844,7 +844,7 @@ export default function Home() {
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        May 05, 2022
+                        May 26, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
                         - Publishing list of FieldOps Cadets
