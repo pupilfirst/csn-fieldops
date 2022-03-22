@@ -863,7 +863,7 @@ export default function Home() {
                           "text-secondary-400 underline pl-2 tracking-wide font-medium"
                         }
                       >
-                        support@gdc.network
+                        fieldops@gdc.network
                       </a>
                     </p>
                   </div>
