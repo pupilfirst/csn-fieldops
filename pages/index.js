@@ -118,7 +118,7 @@ export default function Home() {
                 <p className="text-sm md:text-base text-secondary-100 lg:text-lg pt-2 lg:pt-4 lg:pr-12">
                   GDC FieldOps Fellowship is a national programme to identify
                   and train 100,000 students in disaster management using United
-                  Nations Recognised digital tools and become part of the
+                  Nations recognised digital tools and become part of the
                   Emergency Reserve Cadre.
                 </p>
                 <div className="mt-8 lg:text-xl font-semibold bg-secondary-700 inline-block p-4 bg-opacity-20 rounded-lg text-primary-500">
@@ -298,7 +298,7 @@ export default function Home() {
                         When?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        March 14 - May 1, 2022
+                        April 4 - May 22, 2022
                       </p>
                     </div>
                     <div>
@@ -651,7 +651,7 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-xs italic pt-6 text-secondary-300 pl-4 xl:pl-0">
-                    * Stats as of February 22nd, 2022
+                    * Stats as of February 22, 2022
                   </p>
                   <div className="py-10 lg:pb-20 pl-4 lg:pl-0">
                     <div className="bg-gradient-to-br from-secondary-800 to-secondary-900 border rounded-lg shadow-xl border-secondary-700">
@@ -682,7 +682,7 @@ export default function Home() {
                           <div className="text-secondary-50 space-y-6 text-base lg:text-lg">
                             <p>
                               Students who complete the programme shall become
-                              part of Emergency Reserve Cadre of thier state.
+                              part of Emergency Reserve Cadre of their state.
                             </p>
                           </div>
                         </div>
@@ -705,7 +705,7 @@ export default function Home() {
                     </h4>
                     <p className="text-secondary-50 lg:text-lg pt-2">
                       Community Response Network (CRN 101) is a simple course
-                      designed to give a student a basic understanding of
+                      designed to give a student the basic understanding of
                       disaster management and how government systems work in
                       general.
                     </p>
@@ -722,7 +722,7 @@ export default function Home() {
                     </h4>
                     <p className="text-secondary-50 lg:text-lg pt-2">
                       You will hear experience reports from people in the field
-                      who managed Coronavirus since March 2020. There will be no
+                      who helped control the Coronavirus outbreak since March 2020. There will be no
                       long, boring introductions; instead, you will hear raw
                       stories from the field, what are the key challenges and
                       how Covid19 management is taking place.
@@ -791,8 +791,8 @@ export default function Home() {
                         >
                           Article 51-A{" "}
                         </a>
-                        of the Indian constitution outlines the fundamental
-                        duties of citizens of every citizen of India including
+                        of the Indian Constitution outlines the fundamental
+                        duties of every citizen of India including
                         to defend the country and render national service when
                         called upon to do so; As part of the Emergency Reserve
                         Cadre, you shall have the basic training and skills to
