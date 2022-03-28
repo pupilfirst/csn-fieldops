@@ -529,21 +529,20 @@ export default function Home() {
               <div className="max-w-4xl mx-auto text-secondary-50">
                 <div className="py-8 lg:pb-20 space-y-12 md:space-y-20 lg:text-lg">
                   <blockquote className="testimonial-blockquote pl-12 lg:pl-16">
-                    It has been a truly invaluable learning experience and has
-                    learnt from all the constructive input and guidance
-                    throughout the course. The course is designed in a manner
-                    that learning is not limited. The videos are fabulous and
-                    just the right length.
+                    It has been a truly invaluable learning experience. I have 
+                    gained a lot of knowledge from the  constructive input and guidance
+                    throughout the course. The course is designed in a way that dones not limit
+                    learning. The videos are fabulous and just the right length.
                     <br></br>- Reema Shaji ( 2nd Year, Computer Science
                     Engineering Student)
                   </blockquote>
                   <blockquote className="testimonial-blockquote pl-12 lg:pl-16">
                     Community Response Network was a splendid course by
                     CoronaSafe Network's knowledge base. The course was easily
-                    accessible and step by step procedures was included in it.
+                    accessible, with step by step procedures.
                     After going through the course I got an idea of how our
-                    system manages such a pandemic and what are the
-                    responsibilities I have. platform
+                    system manages a disaster and what 
+                    responsibilities I have to perfom to aid our society.
                     <br></br>- Asna P (3rd Year, BTech Civil , Government
                     Engineering College Thrissur)
                   </blockquote>
