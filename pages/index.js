@@ -4,10 +4,10 @@ function ApplyToCourse() {
   return (
     <div className="flex">
       <a
-        className="block w-full md:w-auto text-center px-10 py-4 bg-gradient-to-br from-yellow-300 to-yellow-600 text-secondary-900 font-bold rounded-md shadow-lg hover:shadow-xl hover:from-yellow-400 hover:to-yellow-700 transition duration-250 ease-in-out"
-        href="#"
+        className="block w-full max-w-xs text-center px-10 py-4 bg-gradient-to-br from-yellow-300 to-yellow-600 text-secondary-900 text-lg font-bold rounded-md shadow-lg hover:shadow-xl hover:from-yellow-400 hover:to-yellow-700 transition"
+        href="https://application.gdc.network"
       >
-        Applications to open soon
+        Apply Now
       </a>
     </div>
   );
@@ -115,14 +115,14 @@ export default function Home() {
                 <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl font-extrabold leading-tight lg:pt-4">
                   GDC FieldOps Fellowship!
                 </h1>
-                <p className="text-sm md:text-base text-secondary-100 lg:text-lg pt-2 lg:pt-4 lg:pr-12">
+                <p className="text-sm md:text-base text-secondary-100 lg:text-xl pt-2 lg:pt-4 lg:pr-12">
                   GDC FieldOps Fellowship is a national programme to identify
                   and train 100,000 students in disaster management using United
                   Nations recognised digital tools and become part of the
                   Emergency Reserve Cadre.
                 </p>
-                <div className="mt-8 lg:text-xl font-semibold bg-secondary-700 inline-block p-4 bg-opacity-20 rounded-lg text-primary-500">
-                  Applications to open soon
+                <div className="mt-4 md:mt-8">
+                  <ApplyToCourse />
                 </div>
               </div>
             </div>
@@ -388,15 +388,7 @@ export default function Home() {
                             managament.
                           </p>
                           <div className="pt-4">
-                            {/* <a
-                              className="block w-full md:w-auto text-center px-10 py-4 bg-gradient-to-br from-yellow-300 to-yellow-600 text-secondary-900 font-bold rounded-md shadow-lg hover:shadow-xl hover:from-yellow-400 hover:to-yellow-700 transition duration-250 ease-in-out"
-                              href="#"
-                            >
-                              Applications to open soon
-                            </a> */}
-                            <div className="lg:text-lg font-semibold bg-secondary-700 inline-block p-4 bg-opacity-20 rounded-lg text-primary-500">
-                              Applications to open soon
-                            </div>
+                            <ApplyToCourse />
                           </div>
                         </div>
                       </div>
@@ -884,15 +876,12 @@ export default function Home() {
                       <br /> GDC FieldOps Fellowship!!
                     </h4>
                     <div className="mt-4 flex justify-center">
-                      {/* <a
-                        className="block text-center px-10 py-4 bg-gradient-to-br from-secondary-800 to-secondary-900 text-yellow-500 font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
-                        href="#"
+                      <a
+                        className="block max-w-xs w-full text-center px-10 py-4 bg-gradient-to-br from-gray-100 to-white text-secondary-900 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
+                        href="https://application.gdc.network/"
                       >
-                        Applications to open soon
-                      </a> */}
-                      <p className="text-secondary-900 bg-yellow-400 p-4 rounded-lg bg-opacity-10 lg:text-xl font-semibold">
-                        Applications to open soon!
-                      </p>
+                        Apply Now
+                      </a>
                     </div>
                   </div>
                 </div>
