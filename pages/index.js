@@ -368,23 +368,58 @@ export default function Home() {
                 <div className="lg:col-span-5 2xl:col-span-4">
                   <div className="sticky top-0 pl-0 pt-10 lg:pt-20 -ml-px md:ml-0">
                     <div className="terminal-container-bg border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-700">
-                      <div className="flex space-x-2 px-6 py-3 border-b border-secondary-800">
+                      <div className="flex space-x-2 px-4 lg:px-6 py-3 border-b border-secondary-800">
                         <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
                         <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
                         <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
                       </div>
-                      <div className="flex p-4 lg:p-6">
-                        <span className="text-secondary-400 text-xl">
-                          &#10142;
-                        </span>
-                        <div className="pl-3">
-                          <p className="text-secondary-50 text-lg">
-                            GDC Field-Ops Fellowship is a national programme to
-                            identify and train 100,000 students in disaster
-                            management using digital tools and become part of
-                            the Emergency Reserve Cadre to assist in disaster
-                            managament.
-                          </p>
+                      <div className="p-4 lg:p-6">
+                        <h2 className="text-secondary-400 text-xl">Schedule</h2>
+                        <div>
+                          <div className="bg-gradient-to-br from-secondary-800 bg-secondary-900 border rounded-lg shadow-xl border-secondary-700 divide-y divide-secondary-700 mt-4">
+                            <div className="md:grid md:grid-cols-12 px-2 py-3">
+                              <p className="col-span-4 text-secondary-300 lg:text-right">
+                                May 23, 2022
+                              </p>
+                              <p className="col-span-8 ml-6 text-secondary-100">
+                                <span className="pr-2">-</span>Application Opens
+                              </p>
+                            </div>
+                            <div className="md:grid md:grid-cols-12 px-2 py-3">
+                              <p className="col-span-4 text-secondary-300 lg:text-right">
+                                May 23, 2022
+                              </p>
+                              <p className="col-span-8 ml-6 text-secondary-100">
+                                <span className="pr-2">-</span>Program Begins
+                              </p>
+                            </div>
+                            <div className="md:grid md:grid-cols-12 px-2 py-3">
+                              <p className="col-span-4 text-secondary-300 lg:text-right">
+                                June 26, 2022
+                              </p>
+                              <p className="col-span-8 ml-6 text-secondary-100">
+                                <span className="pr-2">-</span>Application Ends
+                              </p>
+                            </div>
+                            <div className="md:grid md:grid-cols-12 px-2 py-3">
+                              <p className="col-span-4 text-secondary-300 lg:text-right">
+                                July 10, 2022
+                              </p>
+                              <p className="col-span-8 ml-6 text-secondary-100">
+                                <span className="pr-2">-</span>Program Ends{" "}
+                              </p>
+                            </div>
+                            <div className="md:grid md:grid-cols-12 px-2 py-3">
+                              <p className="col-span-4 text-secondary-300 lg:text-right">
+                                July 14, 2022
+                              </p>
+                              <p className="col-span-8 ml-6 text-secondary-100 flex">
+                                <span className="pr-2">-</span>
+                                <p>Publishing list of FieldOps Cadets</p>
+                              </p>
+                            </div>
+                          </div>
+
                           <div className="pt-4">{/* <ApplyToCourse /> */}</div>
                         </div>
                       </div>
@@ -809,42 +844,43 @@ export default function Home() {
                   <div className="bg-gradient-to-br from-secondary-800 bg-secondary-900 border rounded-lg shadow-xl border-secondary-700 divide-y divide-secondary-700 mt-4">
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        April 04, 2022
+                        May 23, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
-                        - Application Opens
+                        <span className="pr-2">-</span>Application Opens
                       </p>
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        April 04, 2022
+                        May 23, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
-                        - Program Begins
+                        <span className="pr-2">-</span>Program Begins
                       </p>
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        May 08, 2022
+                        June 26, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
-                        - Application Ends
+                        <span className="pr-2">-</span>Application Ends
                       </p>
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        May 22, 2022
+                        July 10, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
-                        - Program Ends{" "}
+                        <span className="pr-2">-</span>Program Ends{" "}
                       </p>
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        May 26, 2022
+                        July 14, 2022
                       </p>
-                      <p className="col-span-9 ml-8 text-secondary-100">
-                        - Publishing list of FieldOps Cadets
+                      <p className="col-span-9 ml-8 text-secondary-100 flex">
+                        <span className="pr-2">-</span>Publishing list of
+                        FieldOps Cadets
                       </p>
                     </div>
                   </div>
