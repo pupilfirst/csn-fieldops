@@ -121,9 +121,7 @@ export default function Home() {
                   Nations recognised digital tools and become part of the
                   Emergency Reserve Cadre.
                 </p>
-                <div className="mt-4 md:mt-8">
-                  <ApplyToCourse />
-                </div>
+                <div className="mt-4 md:mt-8">{/* <ApplyToCourse /> */}</div>
               </div>
             </div>
           </div>
@@ -176,8 +174,8 @@ export default function Home() {
           </div>
         </section>
         <section className="bg-secondary-900 pt-12 pb-6 lg:pt-32 relative">
-          <div className="max-w-4xl mx-auto text-primary-500 px-4 lg:px-0 relative">
-            <div className="absolute -top-32 -left-36 z-0">
+          <div className="max-w-4xl mx-auto text-primary-400 px-4 lg:px-0 relative">
+            <div className="absolute -top-20 md:-top-32 -left-36 z-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -387,9 +385,7 @@ export default function Home() {
                             the Emergency Reserve Cadre to assist in disaster
                             managament.
                           </p>
-                          <div className="pt-4">
-                            <ApplyToCourse />
-                          </div>
+                          <div className="pt-4">{/* <ApplyToCourse /> */}</div>
                         </div>
                       </div>
                     </div>
@@ -870,7 +866,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
-                  <div className="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-700 p-6 lg:p-12">
+                  {/* <div className="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-700 p-6 lg:p-12">
                     <h4 className="text-xl lg:text-3xl text-secondary-900 font-bold text-center">
                       Apply now for
                       <br /> GDC FieldOps Fellowship!!
@@ -883,7 +879,7 @@ export default function Home() {
                         Apply Now
                       </a>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
