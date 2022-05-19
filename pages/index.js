@@ -296,7 +296,7 @@ export default function Home() {
                         When?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        April 4 - May 22, 2022
+                        May 23 - July 10, 2022
                       </p>
                     </div>
                     <div>
