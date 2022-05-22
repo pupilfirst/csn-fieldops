@@ -4,7 +4,8 @@ function ApplyToCourse() {
   return (
     <div className="flex">
       <a
-        className="block w-full max-w-xs text-center px-10 py-4 bg-gradient-to-br from-yellow-300 to-yellow-600 text-secondary-900 text-lg font-bold rounded-md shadow-lg hover:shadow-xl hover:from-yellow-400 hover:to-yellow-700 transition"
+        className="block w-full text-center px-10 py-4 bg-gradient-to-br from-yellow-300 to-yellow-600 text-secondary-900 text-lg font-bold rounded-md shadow-lg hover:shadow-xl hover:from-yellow-400 hover:to-yellow-700 transition"
+        target="_blank"
         href="https://application.gdc.network"
       >
         Apply Now
@@ -121,7 +122,9 @@ export default function Home() {
                   Nations recognised digital tools and become part of the
                   Emergency Reserve Cadre.
                 </p>
-                <div className="mt-4 md:mt-8">{/* <ApplyToCourse /> */}</div>
+                <div className="mt-4 md:mt-8 max-w-xs">
+                  <ApplyToCourse />
+                </div>
               </div>
             </div>
           </div>
@@ -420,7 +423,9 @@ export default function Home() {
                             </div>
                           </div>
 
-                          <div className="pt-4">{/* <ApplyToCourse /> */}</div>
+                          <div className="pt-4 w-full">
+                            <ApplyToCourse />
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -902,7 +907,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
-                  {/* <div className="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-700 p-6 lg:p-12">
+                  <div className="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-700 p-6 lg:p-12">
                     <h4 className="text-xl lg:text-3xl text-secondary-900 font-bold text-center">
                       Apply now for
                       <br /> GDC FieldOps Fellowship!!
@@ -910,12 +915,13 @@ export default function Home() {
                     <div className="mt-4 flex justify-center">
                       <a
                         className="block max-w-xs w-full text-center px-10 py-4 bg-gradient-to-br from-gray-100 to-white text-secondary-900 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
+                        target="_blank"
                         href="https://application.gdc.network/"
                       >
                         Apply Now
                       </a>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
