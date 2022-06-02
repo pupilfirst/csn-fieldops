@@ -71,7 +71,7 @@ export default function Home() {
           name="twitter:card"
           content="coronasafe-engineering-fellowship.png"
         />
-        <meta property="og:site_name" content="Bharat FieldOps Fellowship!" />
+        <meta property="og:site_name" content="GDC FieldOps Fellowship!" />
         <meta name="CoronaSafe Field-Ops Fellowship is a national programme to identify and train 200,000 students in disaster management training to become Field Operations and volunteer as the national engineering leadership cadre for public service" />
 
         {/* <script
