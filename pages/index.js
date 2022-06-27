@@ -299,7 +299,7 @@ export default function Home() {
                         When?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        May 30 - July 17, 2022
+                        May 30 - July 24, 2022
                       </p>
                     </div>
                     <div>
@@ -398,7 +398,7 @@ export default function Home() {
                             </div>
                             <div className="md:grid md:grid-cols-12 px-2 py-3">
                               <p className="col-span-4 text-secondary-300 lg:text-right">
-                                July 03, 2022
+                                July 10, 2022
                               </p>
                               <p className="col-span-8 ml-6 text-secondary-100">
                                 <span className="pr-2">-</span>Application Ends
@@ -406,7 +406,7 @@ export default function Home() {
                             </div>
                             <div className="md:grid md:grid-cols-12 px-2 py-3">
                               <p className="col-span-4 text-secondary-300 lg:text-right">
-                                July 17, 2022
+                                July 24, 2022
                               </p>
                               <p className="col-span-8 ml-6 text-secondary-100">
                                 <span className="pr-2">-</span>Program Ends{" "}
@@ -414,7 +414,7 @@ export default function Home() {
                             </div>
                             <div className="md:grid md:grid-cols-12 px-2 py-3">
                               <p className="col-span-4 text-secondary-300 lg:text-right">
-                                July 21, 2022
+                                July 28, 2022
                               </p>
                               <p className="col-span-8 ml-6 text-secondary-100 flex">
                                 <span className="pr-2">-</span>
@@ -865,7 +865,7 @@ export default function Home() {
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        July 03, 2022
+                        July 10, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
                         <span className="pr-2">-</span>Application Ends
@@ -873,7 +873,7 @@ export default function Home() {
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        July 17, 2022
+                        July 24, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100">
                         <span className="pr-2">-</span>Program Ends{" "}
@@ -881,7 +881,7 @@ export default function Home() {
                     </div>
                     <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
-                        July 21, 2022
+                        July 28, 2022
                       </p>
                       <p className="col-span-9 ml-8 text-secondary-100 flex">
                         <span className="pr-2">-</span>Publishing list of
