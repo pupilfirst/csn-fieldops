@@ -396,7 +396,7 @@ export default function Home() {
                                 <span className="pr-2">-</span>Program Begins
                               </p>
                             </div>
-                            <div className="md:grid md:grid-cols-12 px-2 py-3">
+                            {/* <div className="md:grid md:grid-cols-12 px-2 py-3">
                               <p className="col-span-4 text-secondary-300 lg:text-right">
                                 July 31, 2022
                               </p>
@@ -420,7 +420,7 @@ export default function Home() {
                                 <span className="pr-2">-</span>
                                 <p>Publishing list of FieldOps Cadets</p>
                               </p>
-                            </div>
+                            </div> */}
                           </div>
 
                           <div className="pt-4 w-full">
@@ -863,7 +863,7 @@ export default function Home() {
                         <span className="pr-2">-</span>Program Begins
                       </p>
                     </div>
-                    <div className="md:grid md:grid-cols-12 p-4">
+                    {/* <div className="md:grid md:grid-cols-12 p-4">
                       <p className="col-span-3 text-secondary-300 lg:text-right">
                         July 31, 2022
                       </p>
@@ -887,7 +887,7 @@ export default function Home() {
                         <span className="pr-2">-</span>Publishing list of
                         FieldOps Cadets
                       </p>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="pt-16">
                     <a
