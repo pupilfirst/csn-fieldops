@@ -299,7 +299,7 @@ export default function Home() {
                         When?
                       </h3>
                       <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        May 30 - August 14, 2022
+                        May 30 2022 onwards.
                       </p>
                     </div>
                     <div>
