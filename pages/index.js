@@ -95,7 +95,7 @@ export default function Home() {
                 <p className="text-center font-semibold text-sm md:text-base text-gray-800 lg:text-xl pt-2 lg:pt-4 max-w-3xl mx-auto">
                   The{" "}
                   <a
-                    className="text-blue-600 underline"
+                    className="text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition"
                     target="_blank"
                     href="https://www.un.org/en/observances/disaster-reduction-day#:~:text=The%20International%20Day%20for%20Disaster%20Risk%20Reduction%20was%20started%20in,risk%2Dawareness%20and%20disaster%20reduction."
                   >
@@ -111,9 +111,9 @@ export default function Home() {
             <img src="/hero/Hero.svg" className="w-full" />
           </div>
         </section>
-        <section className="py-12 px-4  max-w-4xl mx-auto">
+        <section className="py-12 px-4 text-center max-w-4xl mx-auto">
           <a
-            className="text-blue-600 text-center underline block mt-4"
+            className="text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition text-center inline-block mt-4"
             target="_blank"
             href="https://www.ipcc.ch/report/ar6/syr/"
           >
@@ -205,13 +205,19 @@ export default function Home() {
               </p>
             </div>
             <div className="md:col-span-6">
-              <div className="flex justify-center">
-                <p className="home--shadow-box text-xl md:text-2xl p-6 md:p-10 border-2 border-gray-800">
+              <div className="home--shadow-box p-6 md:p-10 border-2 border-gray-800">
+                <p className="text-xl md:text-2xl ">
                   As per the new update from World Meteorological Organization,
                   the likelihood of El Niño developing later this year is
                   increasing, and it can cause impact on weather and climate
                   patterns.
                 </p>
+                <a
+                  className="inline-block text-lg mt-4 text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition"
+                  href="https://public.wmo.int/en/media/press-release/wmo-update-prepare-el-ni%C3%B1o#:~:text=The%20effect%20on%20global%20temperatures,different%20parts%20of%20the%20world."
+                >
+                  Read more
+                </a>
               </div>
             </div>
           </div>
@@ -242,10 +248,11 @@ export default function Home() {
                 Climate Change isn't just a buzzword - it's an urgent call for
                 action. But have you ever wondered how governments and
                 communities gear up to face the climate-induced storms?
-                Community Response Network 101 is a 45 mins self-paced learning
-                course that intends to create awareness about India's Disaster
-                Management System and how they coordinate efforts during a
-                national emergency.
+                Community Response Network 101 is a{" "}
+                <span className="font-semibold">45 mins</span> self-paced
+                learning course that intends to create awareness about India's
+                Disaster Management System and how they coordinate efforts
+                during a national emergency.
               </p>
             </div>
           </div>
@@ -269,8 +276,11 @@ export default function Home() {
               </p>
               <p>
                 The knowledge in this course shall enable a learner to develop
-                the Graduate Attribute/Quality of "Environmental Awareness and
-                Action" prescribed by UGC as an important attribute for holistic
+                the Graduate Attribute/Quality of{" "}
+                <span className="font-semibold">
+                  "Environmental Awareness and Action"
+                </span>{" "}
+                prescribed by UGC as an important attribute for holistic
                 development of a student.
               </p>
             </div>
@@ -458,7 +468,10 @@ export default function Home() {
                     </p>
                     <p className="text-lg md:text-2xl pt-4">
                       This course empowers you with the essential graduate
-                      attribute of "Environmental Awareness and Action."
+                      attribute of{" "}
+                      <span className="font-semibold">
+                        "Environmental Awareness and Action."
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -473,13 +486,22 @@ export default function Home() {
                       Fundamental Duty to the nation 🇮🇳
                     </h2>
                     <p className="text-lg md:text-2xl pt-8">
-                      Article 51-A of the Indian constitution outlines the
-                      fundamental duties of every citizen of India, including to
-                      defend the country and render national service when called
-                      upon to do so; As part of the GDC FieldOps Disaster
-                      Management Cadre, you can volunteer and offer service to
-                      the nation at times of emergencies with the skill and
-                      knowledge that you gain from this course.
+                      <a
+                        className="text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition"
+                        href="https://www.moes.gov.in/content/fundamental-duties"
+                      >
+                        Article 51-A
+                      </a>{" "}
+                      of the Indian constitution outlines the fundamental duties
+                      of every citizen of India, including{" "}
+                      <span className="font-semibold">
+                        to defend the country and render national service when
+                        called upon to do so;
+                      </span>{" "}
+                      As part of the GDC FieldOps Disaster Management Cadre, you
+                      can volunteer and offer service to the nation at times of
+                      emergencies with the skill and knowledge that you gain
+                      from this course.
                     </p>
                   </div>
                 </div>
@@ -523,7 +545,7 @@ export default function Home() {
                   <a
                     href="mailto:support@gdc.network"
                     className={
-                      "text-blue-600 underline pl-2 tracking-wide font-medium"
+                      "text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition pl-2 tracking-wide"
                     }
                   >
                     support@gdc.network
