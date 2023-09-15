@@ -71,6 +71,7 @@ h4 {
 
 @screen lg {
   .home--hero-image {
+      background-color: #f3f1ed;
       background-image: url(".././public/hero/Hero.svg");
       background-repeat: no-repeat;
       background-size: cover;

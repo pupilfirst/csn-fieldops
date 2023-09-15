@@ -75,8 +75,8 @@ export default function Home() {
           }}
         /> */}
       </Head>
-      <main className="mx-auto home--hero-bg">
-        <section className="home--hero-image relative overflow-hidden md:min-h-screen">
+      <main className="mx-auto">
+        <section className="home--hero-bg home--hero-image relative overflow-hidden md:min-h-screen">
           <header className="max-w-6xl mx-auto py-4 lg:py-8 px-4 xl:px-0 relative z-10">
             <div className="flex justify-center items-center">
               <img
