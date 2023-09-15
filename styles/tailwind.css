@@ -65,6 +65,17 @@ h4 {
   -webkit-text-fill-color: transparent;
   box-decoration-break: clone;
 }
+.home--hero-bg {
+  background-color: #f3f1ed;
+}
+
+@screen lg {
+  .home--hero-image {
+      background-image: url(".././public/hero/Hero.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+}
 
 .heading-with-leftborder {
   @apply relative;
@@ -106,6 +117,20 @@ h4 {
   content: "";
   background-repeat: no-repeat;
   background-image: url(".././public/testimonial/quote-icon-green.svg");
+}
+.home--shadow-box {
+  box-shadow: 12px 12px 0px rgb(15, 15, 15);
+}
+.home--shadow-box__light {
+  box-shadow: 12px 12px 0px rgb(237, 225, 228);
+}
+.home--dark-bg-box {
+  border-radius: 32px;
+}
+@screen lg {
+  .home--dark-bg-box {
+    border-radius: 132px;
+  }
 }
 
 @screen lg {

@@ -1,37 +1,23 @@
 import Head from "next/head";
 
-function ApplyToCourse() {
-  return (
-    <div className="flex">
-      <a
-        className="block w-full text-center px-10 py-4 bg-gradient-to-br from-yellow-300 to-yellow-600 text-secondary-900 text-lg font-bold rounded-md shadow-lg hover:shadow-xl hover:from-yellow-400 hover:to-yellow-700 transition"
-        target="_blank"
-        href="https://application.gdc.network"
-      >
-        Apply Now
-      </a>
-    </div>
-  );
-}
-
 function ImageWithDescription({ name, caption, imgSrc }) {
   return (
     <div>
-      <div className="relative rounded-lg bg-gradient-to-br from-secondary-400 to-secondary-700 w-5/6 md:w-auto shadow-md ">
+      <div className="relative home--shadow-box border-2 border-gray-800 rounded-lg w-5/6 md:w-auto mx-auto ">
         <img
           src={imgSrc}
           alt={caption}
-          className="block w-full object-cover md:object-contain p-0.5 rounded-lg"
+          className="block w-full object-cover md:object-contain p-1 rounded-lg"
         />
       </div>
       <p
         className={
-          "text-lg lg:text-xl text-secondary-300 leading-tight font-semibold pt-3"
+          "text-lg lg:text-xl text-gray-900 leading-tight font-semibold pt-6 md:pt-10"
         }
       >
         {name}
       </p>
-      <p className={"text-secondary-100 leading-tight pt-2"}>{caption}</p>
+      <p className={"text-gray-700 leading-tight pt-2"}>{caption}</p>
     </div>
   );
 }
@@ -89,63 +75,74 @@ export default function Home() {
           }}
         /> */}
       </Head>
-      <main className="bg-secondary-900 mx-auto ">
-        <section className="relative bg-gradient-to-br from-secondary-800 to-secondary-900 border-b border-secondary-700 pb-20 overflow-hidden">
-          <div className="absolute inset-0 z-0">
-            <img
-              className="h-full w-full object-cover"
-              src="hero/Globe-illustration.jpg"
-              alt="Illustration of a World Map showing GDC network connections"
-            />
-          </div>
+      <main className="mx-auto home--hero-bg">
+        <section className="home--hero-image relative overflow-hidden md:min-h-screen">
           <header className="max-w-6xl mx-auto py-4 lg:py-8 px-4 xl:px-0 relative z-10">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-center items-center">
               <img
                 className="block w-56 md:w-72"
-                src="logos/GDC-fieldops-fellowship-logo.svg"
+                src="logos/GDC-fileldops-fellowship.svg"
               />
-              <img className="block w-20 md:w-24" src="logos/aicte-logo.png" />
             </div>
           </header>
-          <div className="max-w-6xl flex flex-col md:flex-row justify-between mx-auto text-white pt-2 pb-12 px-4 xl:px-0">
-            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
-              <div className="w-full lg:col-span-7 relative z-10">
-                <p className="text-2xl md:text-5xl font-light block leading-6 text-secondary-400">
-                  Welcome to the{" "}
-                </p>
-                <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl font-extrabold leading-tight lg:pt-4">
-                  GDC FieldOps Fellowship!
+          <div className="max-w-6xl flex flex-col md:flex-row justify-between mx-auto text-white pt-2 md:pb-12 px-4">
+            <div class="mx-auto">
+              <div className="w-full relative pt-12 z-10">
+                <h1 className="text-center text-gray-900 text-4xl md:text-5xl lg:text-7xl font-extrabold leading-tight lg:pt-4">
+                  Are you prepared for the <br />
+                  next disaster?
                 </h1>
-                <p className="text-sm md:text-base text-secondary-100 lg:text-xl pt-2 lg:pt-4 lg:pr-12">
-                  GDC FieldOps Fellowship is a national programme to identify
-                  and train 100,000 students in disaster management using United
-                  Nations recognised digital tools and become part of the
-                  Emergency Reserve Cadre.
+                <p className="text-center font-semibold text-sm md:text-base text-gray-800 lg:text-xl pt-2 lg:pt-4 max-w-3xl mx-auto">
+                  The{" "}
+                  <a
+                    className="text-blue-600 underline"
+                    target="_blank"
+                    href="https://www.un.org/en/observances/disaster-reduction-day#:~:text=The%20International%20Day%20for%20Disaster%20Risk%20Reduction%20was%20started%20in,risk%2Dawareness%20and%20disaster%20reduction."
+                  >
+                    UN International Day
+                  </a>{" "}
+                  for Disaster Risk Reduction is coming on October 13, Lets
+                  Buckle Up and Get Ready!
                 </p>
-                <div className="mt-4 md:mt-8 max-w-xs">
-                  <ApplyToCourse />
-                </div>
               </div>
             </div>
           </div>
+          <div className="block lg:hidden w-full">
+            <img src="/hero/Hero.svg" className="w-full" />
+          </div>
         </section>
-        <section className="-mt-20 mx-4 xl:mx-0 relative z-10">
-          <div className="bg-white rounded-lg shadow-lg border border-secondary-700 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
+        <section className="py-12 px-4  max-w-4xl mx-auto">
+          <a
+            className="text-blue-600 text-center underline block mt-4"
+            target="_blank"
+            href="https://www.ipcc.ch/report/ar6/syr/"
+          >
+            - IPCC Climate Change Report 2023
+          </a>
+          <p className="text-center text-2xl font-medium mt-8">
+            GDC FieldOps Fellowship is a national programme to educate students
+            about various government systems involved in disaster management and
+            empower them with basic knowledge and skills to safeguard our
+            communities during times of crisis and uncertainty like
+            disaster/pandemic.
+          </p>
+          <a href=""></a>
+          <a
+            className="block max-w-xs mx-auto mt-12 w-full text-center px-10 py-4 bg-gray-900 text-yellow-200 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
+            target="_blank"
+            href="#"
+          >
+            Apply Now
+          </a>
+        </section>
+        <section className="px-4 py-12 relative z-10">
+          <div className="home--shadow-box bg-white border-2 border-gray-800 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center text-center">
-              <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-secondary-50 shadow-inner">
+              <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-gray-200 shadow-inner">
                 Supported By
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3 lg:grid-cols-4 pt-7">
-              <div className="flex justify-center">
-                <div className="w-48 flex items-center">
-                  <img
-                    className="object-contain w-full"
-                    src="logos/NSTEDB-logo.svg"
-                    alt="National Science and Technology Entrepreneurship Development Board"
-                  />
-                </div>
-              </div>
+            <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3 lg:grid-cols-5 pt-7">
               <div className="flex justify-center">
                 <div className="w-40 flex items-center">
                   <img
@@ -165,6 +162,24 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex justify-center">
+                <div className="w-24 flex items-center">
+                  <img
+                    className="object-contain w-full"
+                    src="logos/Schmidt-Futures-Logo.png"
+                    alt="Schmidt Futures"
+                  />
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <div className="w-32 flex items-center">
+                  <img
+                    className="object-contain w-full"
+                    src="logos/e-gov-foundation-logo.png"
+                    alt="eGov Foundation"
+                  />
+                </div>
+              </div>
+              <div className="flex justify-center">
                 <div className="w-40 flex items-center">
                   <img
                     className="object-contain"
@@ -176,310 +191,147 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-secondary-900 pt-12 pb-6 lg:pt-32 relative">
-          <div className="max-w-4xl mx-auto text-primary-400 px-4 lg:px-0 relative">
-            <div className="absolute -top-20 md:-top-32 -left-36 z-0">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="w-64 h-64 text-primary-800 text-opacity-50"
-                viewBox="0 0 16 16"
-              >
-                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-              </svg>
+        <section className="py-12 lg:py-24 relative">
+          <div className="grid md:grid-cols-12 gap-8 max-w-6xl mx-auto px-4 lg:px-0 relative">
+            <div className="md:col-span-6">
+              <h2>Prepare for El Niño</h2>
+              <p className="text-xl md:text-3xl mt-4">
+                “The world should prepare for the development of El Niño, which
+                is often associated with increased heat, drought or rainfall in
+                different parts of the world”
+              </p>
+              <p className="mt-4 text-lg text-gray-600">
+                -Prof. Taalas. (Secretary-General, WMO)
+              </p>
             </div>
-            <blockquotes
-              cite="https://www.washingtonpost.com/climate-environment/2022/02/28/ipcc-united-nations-climate-change-adaptation/"
-              className="relative text-xl md:text-3xl md:leading-relaxed z-10"
-            >
-              “Today's children who may still be alive in the year 2100 are
-              going to experience four times more climate extremes than they do
-              now. More people are going to die each year from heat waves,
-              diseases, extreme weather, air pollution and starvation because of
-              global warming”
-            </blockquotes>
-            <a
-              className="block text-base md:text-xl pt-5 text-secondary-300 underline"
-              href="https://www.washingtonpost.com/climate-environment/2022/02/28/ipcc-united-nations-climate-change-adaptation/"
-              target="_blank"
-            >
-              - United Nations Report on Climate Change, 27 February 2022.{" "}
-            </a>
-          </div>
-        </section>
-        <section className="bg-secondary-900 py-10 lg:py-20 relative">
-          <div className="max-w-4xl mx-auto text-white px-4 lg:px-0">
-            <div className="border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-700">
-              <div className="flex space-x-2 px-6 py-3 border-b border-secondary-900">
-                <div className="w-3 h-3 bg-secondary-800 rounded-full"></div>
-                <div className="w-3 h-3 bg-secondary-800 rounded-full"></div>
-                <div className="w-3 h-3 bg-secondary-800 rounded-full"></div>
-              </div>
-              <div className="space-y-6 lg:space-y-8 text-base lg:text-lg p-4 lg:p-6">
-                <div className="flex text-secondary-50">
-                  <span className="text-secondary-400 text-xl">&#10142;</span>
-                  <p className="pl-3">
-                    <span className="text-secondary-200">Learn </span> from WHO
-                    experts how a disaster is managed at the field level
-                  </p>
-                </div>
-                <div className="flex">
-                  <span className="text-secondary-400 text-xl">&#10142;</span>
-                  <p className="pl-3">
-                    Hands-on training in United Nations recognised digital tools
-                    for{" "}
-                    <span className="text-secondary-200">
-                      disaster management
-                    </span>
-                  </p>
-                </div>
-                <div className="flex">
-                  <span className="text-secondary-400 text-xl">&#10142;</span>
-                  <p className="pl-3">
-                    Become part of a{" "}
-                    <span className="text-secondary-200">
-                      national volunteer team
-                    </span>
-                  </p>
-                </div>
+            <div className="md:col-span-6">
+              <div className="flex justify-center">
+                <p className="home--shadow-box text-xl md:text-2xl p-6 md:p-10 border-2 border-gray-800">
+                  As per the new update from World Meteorological Organization,
+                  the likelihood of El Niño developing later this year is
+                  increasing, and it can cause impact on weather and climate
+                  patterns.
+                </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="relative border-t border-secondary-800 bg-secondary-900">
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-              <div className="lg:grid lg:grid-cols-12 lg:gap-12 2xl:gap-5 px-0 pb-10 lg:pb-20">
-                <div className="lg:col-span-7 2xl:col-span-8">
-                  <div className="pt-10 lg:pt-20">
-                    <div className="heading-with-leftborder">
-                      <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl leading-snug lg:ml-28 2xl:ml-44 pl-4">
-                        Everything you
-                        <br /> need to know
-                      </h2>
-                    </div>
-                  </div>
-                  <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        What is this?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Experts led field-operations training in disaster
-                        management to use digital tools.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Why?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Climate Change shall cause many disasters in future.
-                        Students who are aware of how government systems work
-                        are empowered to both help themselves and can also
-                        volunteer to help society recover faster during a
-                        disaster.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Who is this for?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Age 18+ students who have a desire to serve the nation
-                        during emergencies. Prior experience in volunteering via
-                        NSS, NCC, NGOs, or teamwork via University/College
-                        festivals, students startups etc is appreciated.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        When?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        May 30 2022 onwards.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Effort?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        2 Weeks of highly enjoyable study & self-paced learning
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Format?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Self-paced learning via video tutorials,with assistance
-                        from experts and community.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Mentorship?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Weekly Ask Me Anything Sessions with experts from the
-                        World Health Organisation and Healthcare workers from
-                        the field.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Curriculum?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        A short management course on how disaster management
-                        operations work and technical training on using{" "}
-                        <a href="https://coronasafe.network/tools">
-                          CoronaSafe Network tools.
-                        </a>
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Certificate?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Yes
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Cost
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        Free
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-2xl text-secondary-300 font-medium">
-                        Why should I apply early?
-                      </h3>
-                      <p className="ml-8 pt-2 text-sm lg:text-lg text-secondary-50">
-                        The admissions are on a rolling basis and might close
-                        earlier if the seats are filled for the batch.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="lg:col-span-5 2xl:col-span-4">
-                  <div className="sticky top-0 pl-0 pt-10 lg:pt-20 -ml-px md:ml-0">
-                    <div className="terminal-container-bg border rounded-lg bg-gradient-to-br from-secondary-700 to-secondary-900 border-secondary-700">
-                      <div className="flex space-x-2 px-4 lg:px-6 py-3 border-b border-secondary-800">
-                        <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
-                        <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
-                        <div className="w-3 h-3 bg-secondary-900 rounded-full"></div>
-                      </div>
-                      <div className="p-4 lg:p-6">
-                        <h2 className="text-secondary-400 text-xl">Schedule</h2>
-                        <div>
-                          <div className="bg-gradient-to-br from-secondary-800 bg-secondary-900 border rounded-lg shadow-xl border-secondary-700 divide-y divide-secondary-700 mt-4">
-                            <div className="md:grid md:grid-cols-12 px-2 py-3">
-                              <p className="col-span-4 text-secondary-300 lg:text-right">
-                                May 30, 2022
-                              </p>
-                              <p className="col-span-8 ml-6 text-secondary-100">
-                                <span className="pr-2">-</span>Application Opens
-                              </p>
-                            </div>
-                            <div className="md:grid md:grid-cols-12 px-2 py-3">
-                              <p className="col-span-4 text-secondary-300 lg:text-right">
-                                May 30, 2022
-                              </p>
-                              <p className="col-span-8 ml-6 text-secondary-100">
-                                <span className="pr-2">-</span>Program Begins
-                              </p>
-                            </div>
-                            {/* <div className="md:grid md:grid-cols-12 px-2 py-3">
-                              <p className="col-span-4 text-secondary-300 lg:text-right">
-                                July 31, 2022
-                              </p>
-                              <p className="col-span-8 ml-6 text-secondary-100">
-                                <span className="pr-2">-</span>Application Ends
-                              </p>
-                            </div>
-                            <div className="md:grid md:grid-cols-12 px-2 py-3">
-                              <p className="col-span-4 text-secondary-300 lg:text-right">
-                                August 14, 2022
-                              </p>
-                              <p className="col-span-8 ml-6 text-secondary-100">
-                                <span className="pr-2">-</span>Program Ends{" "}
-                              </p>
-                            </div>
-                            <div className="md:grid md:grid-cols-12 px-2 py-3">
-                              <p className="col-span-4 text-secondary-300 lg:text-right">
-                                August 18, 2022
-                              </p>
-                              <p className="col-span-8 ml-6 text-secondary-100 flex">
-                                <span className="pr-2">-</span>
-                                <p>Publishing list of FieldOps Cadets</p>
-                              </p>
-                            </div> */}
-                          </div>
+        <section className="px-4 pt-12 pb-12 lg:pb-32 relative">
+          <div className="bg-yellow-200 max-w-6xl mx-auto home--shadow-box text-lg  md:text-4xl font-semibold leading-snug p-6 md:p-10 border-2 border-gray-800">
+            <p>
+              Our comprehensive course is designed to create awareness and
+              understanding about the various government systems pertaining to
+              disaster management, equipping you with the tools to play an
+              active role in disaster preparedness, response, and recovery.
+            </p>
+          </div>
+        </section>
+        <section className="bg-gray-900 home--dark-bg-box py-8 px-4 md:pt-32 md:pb-12">
+          <div className="max-w-6xl mx-auto grid md:grid-cols-12 border-b border-gray-700 pb-12 md:pb-24">
+            <div className="md:col-span-6">
+              <h2 className="text-white text-4xl md:text-7xl">
+                <span className="text-lg md:text-4xl block md:pb-4">
+                  Introducing the{" "}
+                </span>
+                GDC FieldOps <br />
+                Fellowship
+              </h2>
+            </div>
+            <div className="md:col-span-6">
+              <p className="text-gray-300 text-lg pt-6 md:pt-12">
+                Climate Change isn't just a buzzword - it's an urgent call for
+                action. But have you ever wondered how governments and
+                communities gear up to face the climate-induced storms?
+                Community Response Network 101 is a 45 mins self-paced learning
+                course that intends to create awareness about India's Disaster
+                Management System and how they coordinate efforts during a
+                national emergency.
+              </p>
+            </div>
+          </div>
+          <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-6 md:gap-16 py-12 md:py-24">
+            <div className="md:col-span-5">
+              <h3 className="text-yellow-300 md:text-white md:text-right">
+                Why is this course important?
+              </h3>
+            </div>
+            <div className="md:col-span-7 text-gray-200 space-y-8 text-lg md:text-xl">
+              <p>
+                Climate Change shall cause many disasters in the near future.
+                Students who are aware of how government systems work are
+                empowered to both help themselves and can also volunteer to help
+                society recover faster during a disaster.{" "}
+              </p>
+              <p>
+                Through this course, whenever a national emergency arises, you
+                shall know how our government will manage that emergency and how
+                you can contribute to solving the crisis or where to seek help.
+              </p>
+              <p>
+                The knowledge in this course shall enable a learner to develop
+                the Graduate Attribute/Quality of "Environmental Awareness and
+                Action" prescribed by UGC as an important attribute for holistic
+                development of a student.
+              </p>
+            </div>
 
-                          <div className="pt-4 w-full">
-                            <ApplyToCourse />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="md:col-span-5 ">
+              <h3 className="text-yellow-300 md:text-white md:text-right pt-12 md:pt-0">
+                Who can Join?
+              </h3>
+            </div>
+            <div className="md:col-span-7 text-gray-200 space-y-4 md:space-y-8 text-lg md:text-xl">
+              <p>
+                Students aged 18 and above, from all domains, are welcome to
+                take this course.
+              </p>
+              <p>
+                Our school system often overlooks the most critical knowledge on
+                disaster management, which holds high importance for individuals
+                throughout their lives.
+              </p>
+              <p>
+                Given the rapid changes in climatic conditions, we anticipate an
+                increase in natural catastrophes that could result in
+                significant losses of life and property. By acquiring the
+                knowledge from this course, you will be better equipped to
+                support your loved ones and community in their mitigation
+                efforts.
+              </p>
+            </div>
+
+            <div className="md:col-span-5">
+              <h3 className="text-yellow-300 md:text-white md:text-right pt-12 md:pt-0">
+                Certificate of Completion
+              </h3>
+            </div>
+            <div className="md:col-span-7 text-gray-200 space-y-8 text-lg md:text-xl">
+              <p>Yes</p>
+            </div>
+
+            <div className="md:col-span-5">
+              <h3 className="text-yellow-300 md:text-white md:text-right pt-12 md:pt-0">
+                Course Fee
+              </h3>
+            </div>
+            <div className="md:col-span-7 text-gray-200 space-y-8 text-lg md:text-xl">
+              <p>Free of cost</p>
             </div>
           </div>
         </section>
-        <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
+
+        <section className="mx-auto relative">
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-secondary-800 mx-4 xl:mx-0">
+            <div className="">
               <div className="pt-10 lg:pt-16">
-                <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                    An initiative <br />
-                    supported by
+                <div className="">
+                  <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    An initiative supported by
                   </h2>
                 </div>
               </div>
-              <svg
-                className="absolute right-0 top-1/4 object-center"
-                width="120"
-                height="400"
-                fill="none"
-                viewBox="0 0 120 400"
-              >
-                <defs>
-                  <pattern
-                    id="5d0dd344-b041-4d26-bec4-8d33ea57ec9b"
-                    x="0"
-                    y="0"
-                    width="20"
-                    height="20"
-                    patternUnits="userSpaceOnUse"
-                  >
-                    <rect
-                      x="0"
-                      y="0"
-                      width="4"
-                      height="4"
-                      className="text-secondary-700"
-                      fill="currentColor"
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  width="120"
-                  height="400"
-                  fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
-                />
-              </svg>
-              <div className="max-w-4xl mx-auto relative z-10 pl-4 lg:pl-0">
-                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-8 lg:gap-20 py-12 lg:pb-16">
+              <div className="max-w-4xl relative mx-auto">
+                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-8 lg:gap-20 py-12 lg:pb-16 text-center">
                   <ImageWithDescription
                     name="Dr Shibu Balakrishnan"
                     caption={
@@ -527,104 +379,23 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="bg-secondary-900 relative overflow-hidden">
-          <div
-            className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
-            aria-hidden="true"
-          >
-            <div className="relative h-full max-w-7xl mx-auto">
-              <div className="absolute left-0 top-0 h-80 w-80 z-0">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 79.6">
-                  <path
-                    d="M70.2 19.9v59.7H110V39.8H90.1V19.9zm19.9 0H110V0H90.1zM0 19.9v59.7h39.8V39.8H19.9V19.9zm19.9 0h19.9V0H19.9z"
-                    fill="#28292d"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="bg-secondary-900 border-b border-secondary-800 mx-auto relative">
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-              <div className="pt-10 lg:pt-16">
-                <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                    Testimonials
-                  </h2>
-                </div>
-              </div>
-              <div className="max-w-4xl mx-auto text-secondary-50">
-                <div className="py-8 lg:pb-20 space-y-12 md:space-y-20 lg:text-lg">
-                  <blockquote className="testimonial-blockquote pl-12 lg:pl-16">
-                    It has been a truly invaluable learning experience. I have
-                    gained a lot of knowledge from the constructive input and
-                    guidance throughout the course. The course is designed in a
-                    way that dones not limit learning. The videos are fabulous
-                    and just the right length.
-                    <br></br>- Reema Shaji ( 2nd Year, Computer Science
-                    Engineering Student)
-                  </blockquote>
-                  <blockquote className="testimonial-blockquote pl-12 lg:pl-16">
-                    Community Response Network was a splendid course by
-                    CoronaSafe Network's knowledge base. The course was easily
-                    accessible, with step by step procedures. After going
-                    through the course I got an idea of how our system manages a
-                    disaster and what responsibilities I have to perfom to aid
-                    our society.
-                    <br></br>- Asna P (3rd Year, BTech Civil , Government
-                    Engineering College Thrissur)
-                  </blockquote>
-                  <blockquote className="testimonial-blockquote pl-12 lg:pl-16">
-                    CRN 101 was a great program. The sessions conducted in this
-                    program helped us to gain so much information. The question
-                    and answer session was fun and informative and we got to
-                    know each other. Lastly, the interactive session was also
-                    great.
-                    <br></br>- Muhammed Khalifa Zayed (2nd Year, BTech CSE , MES
-                    College of engineering Kuttippuram)
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="bg-secondary-900">
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-              <div className="max-w-4xl ml-4 lg:mx-auto text-white pt-0 lg:py-20">
-                <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl border border-primary-700">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/BjrPsEOZyi4"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
-            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-              <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-                <div className="pt-10 lg:pt-16">
-                  <div className="heading-with-leftborder">
-                    <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                      Free
+        <section>
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="pt-4 pb-24">
+              <div className="max-w-4xl home--shadow-box border-2 border-gray-800 mx-auto">
+                <div className="space-y-12 p-6 md:p-16">
+                  <div>
+                    <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                      Full Scholarship
                     </h2>
-                  </div>
-                </div>
-                <div className="max-w-4xl mx-auto pl-4 lg:pl-0 pb-10 lg:pb-16">
-                  <div className="space-y-6 max-w-3xl text-secondary-50 lg:text-lg">
-                    <p className="mt-4">
-                      This program is created by a team of over a dozen people
-                      from across multiple companies, with donor funding from
-                      Schmidt Futures and Facebook(India)
+                    <p className="text-xl md:text-2xl pt-8">
+                      This program has been crafted by a dynamic team of
+                      individuals from numerous companies. Donor Funding from
+                      Schmidt Futures and Facebook (India) has been instrumental
+                      in bringing this initiative to life.
                     </p>
-                    <p>
+                    <p className="text-xl md:text-2xl pt-4">
                       The donor funding enables us to offer the course to you
                       for free.
                     </p>
@@ -632,323 +403,139 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-              <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-                <div className="pt-10 lg:pt-16">
-                  <div className="heading-with-leftborder">
-                    <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                      Impact
+            <div className="bg-yellow-200 max-w-6xl mx-auto mt-12 home--shadow-box font-semibold leading-snug p-10 border-2 border-gray-800">
+              <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                Course Highlights
+              </h2>
+              <ul className="mt-8 text-lg md:text-2xl list-disc max-w-4xl mx-auto space-y-4">
+                <li>
+                  Gain insights into the government systems managing disasters
+                  in India.
+                </li>
+                <li>
+                  Learn about the National Disaster Management Act and its key
+                  provisions.
+                </li>
+                <li>
+                  Discover the role of local self-government in disaster
+                  response.
+                </li>
+                <li>
+                  Explore the three-tier healthcare system and its importance
+                  during disasters.
+                </li>
+                <li>
+                  Understand the structure of the police and their role in
+                  disaster management.
+                </li>
+                <li>
+                  Learn from real-life case studies and examples, including the
+                  response to COVID-19.
+                </li>
+              </ul>
+            </div>
+
+            <div className="py-12">
+              <div className="max-w-6xl mx-auto">
+                <div className="space-y-12 md:p-16">
+                  <div>
+                    <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                      Graduate Attribute: Environmental Awareness and Action
                     </h2>
-                  </div>
-                </div>
-                <div className="max-w-4xl mx-auto">
-                  <div className="mt-4 pl-4 lg:pl-0">
-                    <img
-                      className="object-cover rounded-md "
-                      src="csn/impact.png"
-                    />
-                  </div>
-                  <div className="space-y-6 md:grid md:grid-col-2 lg:grid-cols-4 lg:gap-8 lg:space-y-0 lg:space-x-5 pt-8 pl-4 lg:pl-0">
-                    <div>
-                      <h4 className="text-2xl lg:text-3xl text-primary-500">
-                        465+
-                      </h4>
-                      <p className="pt-1 text-secondary-50">
-                        Hospitals Using the platform
-                      </p>
-                    </div>
-                    <div>
-                      <h4 className="text-2xl lg:text-3xl text-primary-500">
-                        355K+
-                      </h4>
-                      <p className="pt-1 text-secondary-50">Patients Managed</p>
-                    </div>
-                    <div>
-                      <h4 className="text-2xl lg:text-3xl text-primary-500">
-                        134K+
-                      </h4>
-                      <p className="pt-1 text-secondary-50">Shifting Managed</p>
-                    </div>
-                    <div>
-                      <h4 className="text-2xl lg:text-3xl text-primary-500">
-                        200K+
-                      </h4>
-                      <p className="pt-1 text-secondary-50">
-                        Telemedicine Calls
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-xs italic pt-6 text-secondary-300 pl-4 xl:pl-0">
-                    * Stats as of February 22, 2022
-                  </p>
-                  <div className="py-10 lg:pb-20 pl-4 lg:pl-0">
-                    <div className="bg-gradient-to-br from-secondary-800 to-secondary-900 border rounded-lg shadow-xl border-secondary-700">
-                      <div className="flex space-x-1.5 px-6 py-3 border-b border-secondary-700">
-                        <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
-                        <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
-                        <div className="w-2.5 h-2.5 bg-secondary-900 rounded-full"></div>
-                      </div>
-                      <div className="flex p-4 lg:py-3 lg:px-6">
-                        <span className="text-secondary-400 text-xl">
-                          &#10142;
-                        </span>
-                        <div className="pl-3">
-                          <div className="text-secondary-50 space-y-6 text-base lg:text-lg">
-                            <p>
-                              We are now looking to select 100,000 of the best
-                              students in India to become trained field
-                              operations volunteers under expert guidance.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="flex p-4 lg:py-3 lg:px-6">
-                        <span className="text-secondary-400 text-xl">
-                          &#10142;
-                        </span>
-                        <div className="pl-3">
-                          <div className="text-secondary-50 space-y-6 text-base lg:text-lg">
-                            <p>
-                              Students who complete the programme shall become
-                              part of Emergency Reserve Cadre of their state.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <p className="text-lg md:text-2xl pt-8">
+                      In the realm of higher education, graduate attributes
+                      stand as the compass guiding students toward success in
+                      both their professional and personal lives. These
+                      attributes encompass a blend of essential qualities,
+                      skills, and knowledge, shaping individuals for the
+                      challenges of the 21st century.
+                    </p>
+                    <p className="text-lg md:text-2xl pt-4">
+                      In alignment with India's visionary National Educational
+                      Policy of 2020, this course is your pathway to nurturing
+                      one of the 18 pivotal attributes deemed vital for the
+                      modern age.
+                    </p>
+                    <p className="text-lg md:text-2xl pt-4">
+                      This course empowers you with the essential graduate
+                      attribute of "Environmental Awareness and Action."
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-        </section>
-        <section>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="space-y-12 max-w-3xl py-10 lg:py-20">
-                  <div>
-                    <h4 className="text-primary-500 text-xl lg:text-3xl font-bold">
-                      Community Response Network 101 Course
-                    </h4>
-                    <p className="text-secondary-50 lg:text-lg pt-2">
-                      Community Response Network (CRN 101) is a simple course
-                      designed to give a student the basic understanding of
-                      disaster management and how government systems work in
-                      general.
-                    </p>
-                    <p className="text-secondary-50 lg:text-lg pt-2">
-                      You shall also get training in operating the real software
-                      tools that health force workers use in the field during
-                      disaster management.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="text-primary-500 text-xl lg:text-3xl font-bold">
-                      Ask Me Anything (AMA) with WHO experts, Doctors and Field
-                      Healthcare workers
-                    </h4>
-                    <p className="text-secondary-50 lg:text-lg pt-2">
-                      You will hear experience reports from people in the field
-                      who helped control the Coronavirus outbreak since March
-                      2020. There will be no long, boring introductions;
-                      instead, you will hear raw stories from the field, what
-                      are the key challenges and how Covid19 management is
-                      taking place.
-                    </p>
-                    <p className="text-secondary-50 lg:text-lg pt-2">
-                      The best things about these AMAs are the free-wheeling
-                      question and answer session where you talk with the
-                      speakers about the most pressing questions in your mind.
-                    </p>
-                  </div>
-                  <div>
-                    <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
-                      Fellowship with students from across the country
-                    </h4>
-                    <p className="text-secondary-50 lg:text-lg pt-2">
-                      This programme is open to students from all colleges from
-                      across the country. You will have access to a community
-                      forum for discussion. There will be a kind and respectful
-                      code of conduct to make the experience welcoming for
-                      everyone.
-                    </p>
-                  </div>
-                  <div className="space-y-12">
-                    <div>
-                      <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
-                        Learn FieldOps Realities
-                      </h4>
-                      <div>
-                        <p className="text-base lg:text-lg font-semibold text-secondary-400 pt-4">
-                          Gain Real-world experience and understanding.
-                        </p>
-                        <p className="text-secondary-50 lg:text-lg pt-1">
-                          CoronaSafe Network is a fully functioning
-                          battle-tested solution that has managed over 3 Lakh
-                          patients. You shall learn about how various government
-                          departments come together to fight the virus, observe
-                          what gaps are there and find solutions to fill those
-                          gaps.
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-base lg:text-lg font-semibold text-secondary-400 pt-4">
-                          Be a part of Reserve Force
-                        </p>
-                        <p className="pt-1 text-white">
-                          Your mission is to learn how our nation manages a
-                          disaster so that when the next disaster strikes, you
-                          already know whom to reach out to for help and/or can
-                          contribute to strengthening the capabilities of our
-                          governmental system.
-                        </p>
-                      </div>
-                    </div>
-                    <div>
-                      <div>
-                        <h4 className="text-primary-500 text-xl lg:text-3xl  font-bold">
-                          Fundamental Duty to the nation
-                        </h4>
-                      </div>
 
-                      <p className="pt-2 text-white">
-                        <a
-                          className="text-blue-500 hover:bg-blue-900 hover:text-white underline transition"
-                          target="_blank"
-                          href="https://www.moes.gov.in/content/fundamental-duties"
-                        >
-                          Article 51-A{" "}
-                        </a>
-                        of the Indian Constitution outlines the fundamental
-                        duties of every citizen of India including to defend the
-                        country and render national service when called upon to
-                        do so; As part of the Emergency Reserve Cadre, you shall
-                        have the basic training and skills to be in service of
-                        the nation and ready to serve your state or district
-                        administration, if the need so arises.
-                      </p>
-                    </div>
+            <div className="py-12">
+              <div className="max-w-6xl mx-auto">
+                <div className="space-y-12 md:p-16">
+                  <div>
+                    <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                      Fundamental Duty to the nation 🇮🇳
+                    </h2>
+                    <p className="text-lg md:text-2xl pt-8">
+                      Article 51-A of the Indian constitution outlines the
+                      fundamental duties of every citizen of India, including to
+                      defend the country and render national service when called
+                      upon to do so; As part of the GDC FieldOps Disaster
+                      Management Cadre, you can volunteer and offer service to
+                      the nation at times of emergencies with the skill and
+                      knowledge that you gain from this course.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <section className="bg-secondary-900 border-t border-b border-secondary-800 mx-auto relative">
-            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-              <div className="border-l border-secondary-800 mx-4 xl:mx-0">
-                <div className="pt-10 lg:pt-16">
-                  <div className="heading-with-leftborder">
-                    <h2 className="max-w-4xl text-secondary-200 font-bold text-2xl lg:text-6xl ml-4 lg:mx-auto">
-                      Schedule
-                    </h2>
-                  </div>
+          <section className="pb-12 px-4">
+            <div className="max-w-6xl home--shadow-box__light bg-gray-900 text-white border-2 border-gray-200 mx-auto">
+              <div className="space-y-12 p-6 md:p-16">
+                <div>
+                  <h2 className="max-w-6xl text-gray-100 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    Join the Movement
+                  </h2>
+                  <p className="text-lg md:text-2xl pt-8">
+                    Be part of a community that's committed to driving positive
+                    change. Register for the Community Responder 101 Course
+                    today and embark on a journey to become an informed and
+                    responsible citizen.
+                  </p>
+                  <p className="text-lg md:text-2xl pt-4">
+                    Empower Yourself, Empower the Future.
+                  </p>
+                  <p className="text-lg md:text-2xl pt-4">
+                    Register Now for Free!
+                  </p>
                 </div>
-                <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                  <div className="bg-gradient-to-br from-secondary-800 bg-secondary-900 border rounded-lg shadow-xl border-secondary-700 divide-y divide-secondary-700 mt-4">
-                    <div className="md:grid md:grid-cols-12 p-4">
-                      <p className="col-span-3 text-secondary-300 lg:text-right">
-                        May 30, 2022
-                      </p>
-                      <p className="col-span-9 ml-8 text-secondary-100">
-                        <span className="pr-2">-</span>Application Opens
-                      </p>
-                    </div>
-                    <div className="md:grid md:grid-cols-12 p-4">
-                      <p className="col-span-3 text-secondary-300 lg:text-right">
-                        May 30, 2022
-                      </p>
-                      <p className="col-span-9 ml-8 text-secondary-100">
-                        <span className="pr-2">-</span>Program Begins
-                      </p>
-                    </div>
-                    {/* <div className="md:grid md:grid-cols-12 p-4">
-                      <p className="col-span-3 text-secondary-300 lg:text-right">
-                        July 31, 2022
-                      </p>
-                      <p className="col-span-9 ml-8 text-secondary-100">
-                        <span className="pr-2">-</span>Application Ends
-                      </p>
-                    </div>
-                    <div className="md:grid md:grid-cols-12 p-4">
-                      <p className="col-span-3 text-secondary-300 lg:text-right">
-                        August 14, 2022
-                      </p>
-                      <p className="col-span-9 ml-8 text-secondary-100">
-                        <span className="pr-2">-</span>Program Ends{" "}
-                      </p>
-                    </div>
-                    <div className="md:grid md:grid-cols-12 p-4">
-                      <p className="col-span-3 text-secondary-300 lg:text-right">
-                        August 18, 2022
-                      </p>
-                      <p className="col-span-9 ml-8 text-secondary-100 flex">
-                        <span className="pr-2">-</span>Publishing list of
-                        FieldOps Cadets
-                      </p>
-                    </div> */}
-                  </div>
-                  <div className="pt-16">
-                    <a
-                      href="https://docs.google.com/document/d/e/2PACX-1vTj6_Kysry0_t6sXTt7ibzqBzxhLORr-iX2LBVaujbrlmnvkF8ZCPKX4HG0cWzdvl8r4F0E8smajKPl/pub"
-                      target="_blank"
-                      className="inline-flex justify-between items-center space-x-4 w-full p-4 border border-secondary-300 bg-gradient-to-r from-secondary-700 to-secondary-500 text-white hover:from-secondary-600 hover:to-secondary-400 rounded-lg text-lg font-semibold shadow-lg hover:underline hover:shadow-xl transition "
-                    >
-                      <span>Frequently Asked Questions</span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="w-6 h-6"
-                        viewBox="0 0 16 16"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                  <div className="pt-10 lg:pt-12">
-                    <h4 className="text-secondary-300 text-xl lg:text-3xl  font-bold">
-                      Questions?
-                    </h4>
-                    <p className="text-secondary-100 pt-2">
-                      Email us at
-                      <a
-                        href="mailto:support@gdc.network"
-                        className={
-                          "text-secondary-400 underline pl-2 tracking-wide font-medium"
-                        }
-                      >
-                        fieldops@gdc.network
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
-                  <div className="rounded-lg bg-gradient-to-br from-yellow-400 to-yellow-700 p-6 lg:p-12">
-                    <h4 className="text-xl lg:text-3xl text-secondary-900 font-bold text-center">
-                      Apply now for
-                      <br /> GDC FieldOps Fellowship!!
-                    </h4>
-                    <div className="mt-4 flex justify-center">
-                      <a
-                        className="block max-w-xs w-full text-center px-10 py-4 bg-gradient-to-br from-gray-100 to-white text-secondary-900 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
-                        target="_blank"
-                        href="https://application.gdc.network/"
-                      >
-                        Apply Now
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <a
+                  className="block max-w-xs mx-auto w-full text-center px-10 py-4 bg-white text-gray-900 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:bg-yellow-300 hover:text-gray-900 transition duration-250 ease-in-out"
+                  target="_blank"
+                  href="#"
+                >
+                  Apply Now
+                </a>
+              </div>
+            </div>
+            <div className="max-w-6xl mx-auto text-center">
+              <div className="pt-10 lg:pt-12">
+                <h4 className="text-xl lg:text-3xl  font-bold">Questions?</h4>
+                <p className="text-gray-700 pt-2">
+                  Email us at
+                  <a
+                    href="mailto:support@gdc.network"
+                    className={
+                      "text-blue-600 underline pl-2 tracking-wide font-medium"
+                    }
+                  >
+                    support@gdc.network
+                  </a>
+                </p>
               </div>
             </div>
           </section>
         </section>
+        <div className="flex justify-center items-center py-4 px-4 border-t border-gray-300">
+          <img className="block w-32" src="logos/pupilfirst-logo.svg" />
+        </div>
       </main>
     </div>
   );
