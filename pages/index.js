@@ -130,7 +130,7 @@ export default function Home() {
           <a
             className="block max-w-xs mx-auto mt-12 w-full text-center px-10 py-4 bg-gray-900 text-yellow-200 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
             target="_blank"
-            href="#"
+            href="https://apply.pupilfirst.org/apply/forms/8"
           >
             Apply Now
           </a>
@@ -144,11 +144,11 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3 lg:grid-cols-5 pt-7">
               <div className="flex justify-center">
-                <div className="w-40 flex items-center">
+                <div className="w-14 flex items-center">
                   <img
                     className="object-contain w-full"
-                    src="logos/act-grants-logo.png"
-                    alt="Act grants - Action COVID-19 Team"
+                    src="logos/act-logo.png"
+                    alt="Act grants"
                   />
                 </div>
               </div>
@@ -531,7 +531,7 @@ export default function Home() {
                 <a
                   className="block max-w-xs mx-auto w-full text-center px-10 py-4 bg-white text-gray-900 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:bg-yellow-300 hover:text-gray-900 transition duration-250 ease-in-out"
                   target="_blank"
-                  href="#"
+                  href="https://apply.pupilfirst.org/apply/forms/8"
                 >
                   Apply Now
                 </a>
