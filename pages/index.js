@@ -147,7 +147,7 @@ export default function Home() {
                 <div className="w-14 flex items-center">
                   <img
                     className="object-contain w-full"
-                    src="logos/act-logo.png"
+                    src="logos/ACT-Logo.png"
                     alt="Act grants"
                   />
                 </div>
