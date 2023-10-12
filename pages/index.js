@@ -292,7 +292,7 @@ export default function Home() {
             </div>
             <div className="md:col-span-7 text-gray-200 space-y-4 md:space-y-8 text-lg md:text-xl">
               <p>
-                Students aged 18 and above, from all domains, are welcome to
+                Students from all domains are welcome to
                 take this course.
               </p>
               <p>
