@@ -93,16 +93,7 @@ export default function Home() {
                   next disaster?
                 </h1>
                 <p className="text-center font-semibold text-sm md:text-base text-gray-800 lg:text-xl pt-2 lg:pt-4 max-w-3xl mx-auto">
-                  The{" "}
-                  <a
-                    className="text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition"
-                    target="_blank"
-                    href="https://www.un.org/en/observances/disaster-reduction-day#:~:text=The%20International%20Day%20for%20Disaster%20Risk%20Reduction%20was%20started%20in,risk%2Dawareness%20and%20disaster%20reduction."
-                  >
-                    UN International Day
-                  </a>{" "}
-                  for Disaster Risk Reduction is coming on October 13, Lets
-                  Buckle Up and Get Ready!
+                  Lets Buckle Up and Get Ready!
                 </p>
               </div>
             </div>
