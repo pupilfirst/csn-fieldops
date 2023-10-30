@@ -60,20 +60,21 @@ export default function Home() {
         <meta property="og:site_name" content="GDC FieldOps Fellowship!" />
         <meta name="CoronaSafe Field-Ops Fellowship is a national programme to identify and train 200,000 students in disaster management training to become Field Operations and volunteer as the national engineering leadership cadre for public service" />
 
-        {/* <script
+        <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-11P76BRB6N"
+          src="https://www.googletagmanager.com/gtag/js?id=G-DDRDZJP778"
         ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-11P76BRB6N');
-              `,
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-DDRDZJP778');
+        `,
           }}
-        /> */}
+        />
       </Head>
       <main className="mx-auto">
         <section className="home--hero-bg home--hero-image relative overflow-hidden md:min-h-screen">
@@ -282,10 +283,7 @@ export default function Home() {
               </h3>
             </div>
             <div className="md:col-span-7 text-gray-200 space-y-4 md:space-y-8 text-lg md:text-xl">
-              <p>
-                Students from all domains are welcome to
-                take this course.
-              </p>
+              <p>Students from all domains are welcome to take this course.</p>
               <p>
                 Our school system often overlooks the most critical knowledge on
                 disaster management, which holds high importance for individuals
