@@ -122,7 +122,7 @@ export default function Home() {
           <a
             className="block max-w-xs mx-auto mt-12 w-full text-center px-10 py-4 bg-gray-900 text-yellow-200 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
             target="_blank"
-            href="https://apply.pupilfirst.org/apply/forms/8"
+            href="https://www.pupilfirst.school/courses/1855"
           >
             Apply Now
           </a>
@@ -520,7 +520,7 @@ export default function Home() {
                 <a
                   className="block max-w-xs mx-auto w-full text-center px-10 py-4 bg-white text-gray-900 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:bg-yellow-300 hover:text-gray-900 transition duration-250 ease-in-out"
                   target="_blank"
-                  href="https://apply.pupilfirst.org/apply/forms/8"
+                  href="https://www.pupilfirst.school/courses/1855"
                 >
                   Apply Now
                 </a>
