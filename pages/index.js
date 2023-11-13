@@ -96,6 +96,13 @@ export default function Home() {
                 <p className="text-center font-semibold text-sm md:text-base text-gray-800 lg:text-xl pt-2 lg:pt-4 max-w-3xl mx-auto">
                   Lets Buckle Up and Get Ready!
                 </p>
+                <a
+                  className="block max-w-xs mx-auto mt-12 w-full text-center px-10 py-4 bg-gray-900 text-yellow-200 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
+                  target="_blank"
+                  href="https://www.pupilfirst.school/courses/1855"
+                >
+                  Get Certified for Free!
+                </a>
               </div>
             </div>
           </div>
@@ -118,14 +125,6 @@ export default function Home() {
             communities during times of crisis and uncertainty like
             disaster/pandemic.
           </p>
-          <a href=""></a>
-          <a
-            className="block max-w-xs mx-auto mt-12 w-full text-center px-10 py-4 bg-gray-900 text-yellow-200 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
-            target="_blank"
-            href="https://www.pupilfirst.school/courses/1855"
-          >
-            Apply Now
-          </a>
         </section>
         <section className="px-4 py-12 relative z-10">
           <div className="home--shadow-box bg-white border-2 border-gray-800 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
@@ -522,7 +521,7 @@ export default function Home() {
                   target="_blank"
                   href="https://www.pupilfirst.school/courses/1855"
                 >
-                  Apply Now
+                  Get Certified for Free!
                 </a>
               </div>
             </div>
