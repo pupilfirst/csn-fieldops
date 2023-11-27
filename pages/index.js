@@ -80,7 +80,7 @@ export default function Home() {
             <div className="flex justify-center items-center">
               <img
                 className="block w-56 md:w-72"
-                src="logos/GDC-FieldOps-Fellowship-logo.svg"
+                src="logos/GDC-fieldops-fellowship-logo.svg"
               />
             </div>
           </header>
@@ -287,7 +287,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-6 md:gap-16 py-12 md:py-24">
+          <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-3 md:gap-16 py-12 md:py-24">
             <div className="md:col-span-5">
               <h3 className="text-yellow-300 md:text-white md:text-right">
                 Why is this course important?
@@ -423,7 +423,7 @@ export default function Home() {
 
         <section>
           <div className="max-w-6xl mx-auto px-4">
-            <div className="pt-4 pb-24">
+            <div className="pt-4 pb-12 md:pb-24">
               <div className="max-w-4xl home--shadow-box border-2 border-gray-800 mx-auto">
                 <div className="space-y-12 p-6 md:p-16">
                   <div>
@@ -445,7 +445,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-yellow-300 max-w-6xl mx-auto mt-12 home--shadow-box font-semibold leading-snug p-10 border-2 border-gray-800">
-              <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+              <h2 className="max-w-6xl text-gray-900 md:text-center font-bold text-2xl lg:text-7xl lg:mx-auto">
                 Community Responder 101 Course Highlights.
               </h2>
               <ul className="mt-8 text-lg md:text-2xl list-disc max-w-4xl mx-auto space-y-4">
@@ -476,14 +476,14 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="py-6">
+            <div className="pt-20">
               <div className="max-w-6xl mx-auto">
                 <div className="space-y-12 md:p-16">
                   <div>
-                    <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    <h2 className="max-w-6xl text-gray-50 md:text-center font-bold text-2xl lg:text-7xl lg:mx-auto">
                       Graduate Attribute: Environmental Awareness and Action
                     </h2>
-                    <p className="text-lg md:text-2xl pt-8 text-gray-300">
+                    <p className="text-lg md:text-2xl pt-2 md:pt-8 text-gray-300">
                       In the realm of higher education, graduate attributes
                       stand as the compass guiding students toward success in
                       both their professional and personal lives. These
@@ -509,14 +509,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="pb-6">
+            <div className="py-12">
               <div className="max-w-6xl mx-auto">
                 <div className="space-y-12 md:p-16">
                   <div>
-                    <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    <h2 className="max-w-6xl text-gray-50 md:text-center font-bold text-2xl lg:text-7xl lg:mx-auto">
                       Become a part of GDC FieldOps Disaster Management Cadre.
                     </h2>
-                    <p className="text-lg md:text-2xl pt-8 text-gray-300">
+                    <p className="text-lg md:text-2xl pt-2 md:pt-8 text-gray-300">
                       Your mission is to learn how our nation manages a disaster
                       so that when the next disaster strikes, you already know
                       whom to reach out to for help and/or can contribute to
@@ -531,14 +531,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="pb-6">
+            <div className="py-12">
               <div className="max-w-6xl mx-auto">
                 <div className="space-y-12 md:p-16">
                   <div>
-                    <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    <h2 className="max-w-6xl text-gray-50 md:text-center font-bold text-2xl lg:text-7xl lg:mx-auto">
                       Fundamental Duty to the nation 🇮🇳
                     </h2>
-                    <p className="text-lg md:text-2xl pt-8 text-gray-300">
+                    <p className="text-lg md:text-2xl pt-4 md:pt-8 text-gray-300">
                       <a
                         className="text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition"
                         href="https://www.moes.gov.in/content/fundamental-duties"
