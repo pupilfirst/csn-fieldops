@@ -87,7 +87,17 @@ h4 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 16rem;
+  font-size: 4rem;
+}
+@screen md {
+  .home--hero-text-image {
+    font-size: 10rem;
+  }
+}
+@screen lg {
+  .home--hero-text-image {
+    font-size: 14rem;
+  }
 }
 @screen 2xl {
   .home--hero-text-image {

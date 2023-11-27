@@ -80,16 +80,16 @@ export default function Home() {
             <div className="flex justify-center items-center">
               <img
                 className="block w-56 md:w-72"
-                src="logos/GDC-fieldops-fellowship-logo.svg"
+                src="logos/GDC-FieldOps-Fellowship-logo.svg"
               />
             </div>
           </header>
-          <div className="container flex flex-col md:flex-row justify-between mx-auto text-white pt-2 md:pb-8 px-4">
+          <div className="container flex flex-col md:flex-row justify-between mx-auto text-white pt-2 pb-8 px-4">
             <div class="mx-auto">
               <div className="w-full relative z-10">
-                <h1 className="text-center text-gray-400 text-4xl md:text-5xl lg:text-7xl font-light leading-tight">
+                <h1 className="text-center text-gray-400 text-2xl md:text-4xl lg:text-5xl 2xl:text-7xl font-light leading-tight">
                   Are you prepared for the next
-                  <span className="block home--hero-text-image font-black">
+                  <span className="block home--hero-text-image font-black leading-none">
                     disaster?
                   </span>
                 </h1>
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-12 items-center">
-            <div className="col-span-12 lg:col-span-8 bg-indigo-500 rounded-r-2xl text-white px-24 py-8">
+            <div className="col-span-12 lg:col-span-8 bg-indigo-500 lg:rounded-r-2xl text-white px-6 md:px-4 lg:px-12 xl:px-24 py-8">
               <div>
                 <img src="hero/30-minutes-banner.svg"></img>
               </div>
@@ -124,8 +124,8 @@ export default function Home() {
                 Get Certified for Free!
               </a>
             </div>
-            <div className="col-span-12 lg:col-span-4 md:py-4">
-              <div className="bg-gray-700 px-12 py-6">
+            <div className="col-span-12 lg:col-span-4 py-4">
+              <div className="bg-gray-700 px-6 md:px-4 2xl:px-12 py-6">
                 <div>
                   <img src="hero/3-minutes-banner.svg"></img>
                 </div>
@@ -148,9 +148,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="block lg:hidden w-full">
-            <img src="/hero/Hero.svg" className="w-full" />
           </div>
         </section>
         <section className="py-12 px-4 text-center max-w-4xl mx-auto">
@@ -595,7 +592,9 @@ export default function Home() {
             </div>
             <div className="max-w-6xl mx-auto text-center">
               <div className="pt-10 lg:pt-12">
-                <h4 className="text-xl lg:text-3xl font-bold">Questions?</h4>
+                <h4 className="text-xl lg:text-3xl font-bold text-gray-50">
+                  Questions?
+                </h4>
                 <p className="text-gray-100 pt-2">
                   Email us at
                   <a
