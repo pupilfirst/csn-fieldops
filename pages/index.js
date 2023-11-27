@@ -12,12 +12,12 @@ function ImageWithDescription({ name, caption, imgSrc }) {
       </div>
       <p
         className={
-          "text-lg lg:text-xl text-gray-900 leading-tight font-semibold pt-6 md:pt-10"
+          "text-lg lg:text-xl text-gray-100 leading-tight font-semibold pt-6 md:pt-10"
         }
       >
         {name}
       </p>
-      <p className={"text-gray-700 leading-tight pt-2"}>{caption}</p>
+      <p className={"text-gray-400 leading-tight pt-2"}>{caption}</p>
     </div>
   );
 }
@@ -37,10 +37,14 @@ export default function Home() {
       <Head>
         <title>GDC FieldOps Fellowship!</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
         <meta property="og:title" content="GDC FieldOps Fellowship!" />
@@ -70,32 +74,77 @@ export default function Home() {
           }}
         />
       </Head>
-      <main className="mx-auto">
-        <section className="home--hero-bg home--hero-image relative overflow-hidden md:min-h-screen">
-          <header className="max-w-6xl mx-auto py-4 lg:py-8 px-4 xl:px-0 relative z-10">
+      <main className="mx-auto home-body-wrapper">
+        <section className="home--hero-bg relative overflow-hidden md:min-h-screen">
+          <header className="max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0 relative z-10">
             <div className="flex justify-center items-center">
               <img
                 className="block w-56 md:w-72"
-                src="logos/GDC-fileldops-fellowship.svg"
+                src="logos/GDC-fieldops-fellowship-logo.svg"
               />
             </div>
           </header>
-          <div className="max-w-6xl flex flex-col md:flex-row justify-between mx-auto text-white pt-2 md:pb-12 px-4">
+          <div className="container flex flex-col md:flex-row justify-between mx-auto text-white pt-2 md:pb-8 px-4">
             <div class="mx-auto">
-              <div className="w-full relative pt-12 z-10">
-                <h1 className="text-center text-gray-900 text-4xl md:text-5xl lg:text-7xl font-extrabold leading-tight lg:pt-4">
-                  Are you prepared for the <br />
-                  next disaster?
+              <div className="w-full relative z-10">
+                <h1 className="text-center text-gray-400 text-4xl md:text-5xl lg:text-7xl font-light leading-tight">
+                  Are you prepared for the next
+                  <span className="block home--hero-text-image font-black">
+                    disaster?
+                  </span>
                 </h1>
-                <p className="text-center font-semibold text-sm md:text-base text-gray-800 lg:text-xl pt-2 lg:pt-4 max-w-3xl mx-auto">
+                <p className="text-center font-semibold text-sm md:text-lg lg:text-2xl text-gray-400 max-w-3xl mx-auto">
                   Lets Buckle Up and Get Ready!
                 </p>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-12 items-center">
+            <div className="col-span-12 lg:col-span-8 bg-indigo-500 rounded-r-2xl text-white px-24 py-8">
+              <div>
+                <img src="hero/30-minutes-banner.svg"></img>
+              </div>
+              <h2 className="text-4xl 2xl:text-5xl leading-tight mt-4">
+                Sign-up for 30 minutes certificate course.
+              </h2>
+              <ul className="list-disc pl-5 pt-3 text-lg max-w-3xl space-y-2">
+                <li>
+                  A comprehensive guide on the multi-level government disaster
+                  management system that operates during emergencies.
+                </li>
+                <li>Offers in-depth knowledge.</li>
+                <li> Certificate of completion.</li>
+                <li>Duration : 30 minutes.</li>
+              </ul>
+              <a
+                className="inline-block mt-4 text-center px-10 py-4 bg-yellow-400 border border-gray-900 text-gray-900 text-lg font-semibold rounded-md shadow-xl hover:shadow-lg hover:bg-yellow-300 hover:text-gray-800 transition duration-250 ease-in-out"
+                target="_blank"
+                href="https://www.pupilfirst.school/courses/1855"
+              >
+                Get Certified for Free!
+              </a>
+            </div>
+            <div className="col-span-12 lg:col-span-4 md:py-4">
+              <div className="bg-gray-700 px-12 py-6">
+                <div>
+                  <img src="hero/3-minutes-banner.svg"></img>
+                </div>
+                <h2 className="text-3xl text-gray-100 mt-4">
+                  Sign-up for 3 minutes short awareness course.
+                </h2>
+                <ul className="list-disc text-gray-200 pl-5 pt-3 text-lg max-w-lg space-y-2">
+                  <li>
+                    Provides a basic understanding of Public and Civil defence
+                    systems.
+                  </li>
+                  <li>Duration : 3 minutes.</li>
+                </ul>
                 <a
-                  className="block max-w-xs mx-auto mt-12 w-full text-center px-10 py-4 bg-gray-900 text-yellow-200 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:from-secondary-700 hover:to-secondary-900 hover:text-yellow-500 transition duration-250 ease-in-out"
+                  className="inline-block mt-4 text-center px-6 py-4 bg-gray-100 border border-gray-900 text-gray-900 text-lg font-semibold rounded-md shadow-xl hover:shadow-lg hover:bg-yellow-300 hover:text-gray-800 transition duration-250 ease-in-out"
                   target="_blank"
-                  href="https://www.pupilfirst.school/courses/1855"
+                  href="https://flood.gdc.network/"
                 >
-                  Get Certified for Free!
+                  Sign-up Now!
                 </a>
               </div>
             </div>
@@ -105,6 +154,13 @@ export default function Home() {
           </div>
         </section>
         <section className="py-12 px-4 text-center max-w-4xl mx-auto">
+          <p className="text-center text-gray-50 text-2xl font-medium mt-8">
+            GDC FieldOps Fellowship is a national programme to educate
+            individuals about various government systems involved in disaster
+            management and empower them with basic knowledge and skills to
+            safeguard our communities during times of crisis and uncertainty
+            like disaster/pandemic.
+          </p>
           <a
             className="text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition text-center inline-block mt-4"
             target="_blank"
@@ -112,18 +168,11 @@ export default function Home() {
           >
             - IPCC Climate Change Report 2023
           </a>
-          <p className="text-center text-2xl font-medium mt-8">
-            GDC FieldOps Fellowship is a national programme to educate students
-            about various government systems involved in disaster management and
-            empower them with basic knowledge and skills to safeguard our
-            communities during times of crisis and uncertainty like
-            disaster/pandemic.
-          </p>
         </section>
         <section className="px-4 py-12 relative z-10">
-          <div className="home--shadow-box bg-white border-2 border-gray-800 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
+          <div className="home--shadow-box bg-black border-2 border-gray-800 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center text-center">
-              <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-gray-200 shadow-inner">
+              <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-gray-900 text-gray-200 shadow-inner">
                 Supported By
               </p>
             </div>
@@ -179,19 +228,19 @@ export default function Home() {
         <section className="py-12 lg:py-24 relative">
           <div className="grid md:grid-cols-12 gap-8 max-w-6xl mx-auto px-4 lg:px-0 relative">
             <div className="md:col-span-6">
-              <h2>Prepare for El Niño</h2>
-              <p className="text-xl md:text-3xl mt-4">
+              <h2 className="text-gray-50">Prepare for El Niño</h2>
+              <p className="text-xl md:text-3xl mt-4 text-gray-100">
                 “The world should prepare for the development of El Niño, which
                 is often associated with increased heat, drought or rainfall in
                 different parts of the world”
               </p>
-              <p className="mt-4 text-lg text-gray-600">
+              <p className="mt-4 text-lg text-gray-300">
                 -Prof. Taalas. (Secretary-General, WMO)
               </p>
             </div>
             <div className="md:col-span-6">
-              <div className="home--shadow-box p-6 md:p-10 border-2 border-gray-800">
-                <p className="text-xl md:text-2xl ">
+              <div className="home--shadow-box p-6 md:p-10 bg-gray-800 border-4 border-gray-900">
+                <p className="text-xl md:text-2xl text-gray-100 ">
                   As per the new update from World Meteorological Organization,
                   the likelihood of El Niño developing later this year is
                   increasing, and it can cause impact on weather and climate
@@ -208,7 +257,7 @@ export default function Home() {
           </div>
         </section>
         <section className="px-4 pt-12 pb-12 lg:pb-32 relative">
-          <div className="bg-yellow-200 max-w-6xl mx-auto home--shadow-box text-lg  md:text-4xl font-semibold leading-snug p-6 md:p-10 border-2 border-gray-800">
+          <div className="bg-yellow-300 max-w-6xl mx-auto home--shadow-box text-lg md:text-4xl font-semibold leading-snug p-6 md:p-10 border-2 border-gray-800">
             <p>
               Our comprehensive course is designed to create awareness and
               understanding about the various government systems pertaining to
@@ -234,7 +283,7 @@ export default function Home() {
                 action. But have you ever wondered how governments and
                 communities gear up to face the climate-induced storms?
                 Community Response Network 101 is a{" "}
-                <span className="font-semibold">45 mins</span> self-paced
+                <span className="font-semibold">30 mins</span> self-paced
                 learning course that intends to create awareness about India's
                 Disaster Management System and how they coordinate efforts
                 during a national emergency.
@@ -250,9 +299,9 @@ export default function Home() {
             <div className="md:col-span-7 text-gray-200 space-y-8 text-lg md:text-xl">
               <p>
                 Climate Change shall cause many disasters in the near future.
-                Students who are aware of how government systems work are
+                Individuals who are aware of how government systems work are
                 empowered to both help themselves and can also volunteer to help
-                society recover faster during a disaster.{" "}
+                society recover faster during a disaster.
               </p>
               <p>
                 Through this course, whenever a national emergency arises, you
@@ -276,7 +325,10 @@ export default function Home() {
               </h3>
             </div>
             <div className="md:col-span-7 text-gray-200 space-y-4 md:space-y-8 text-lg md:text-xl">
-              <p>Students from all domains are welcome to take this course.</p>
+              <p>
+                Anyone aged 18 and above, from all domains, are welcome to take
+                this course.
+              </p>
               <p>
                 Our school system often overlooks the most critical knowledge on
                 disaster management, which holds high importance for individuals
@@ -298,7 +350,7 @@ export default function Home() {
               </h3>
             </div>
             <div className="md:col-span-7 text-gray-200 space-y-8 text-lg md:text-xl">
-              <p>Yes</p>
+              <p>Yes (only for Community Responder 101 - 30 minute course)</p>
             </div>
 
             <div className="md:col-span-5">
@@ -317,7 +369,7 @@ export default function Home() {
             <div className="">
               <div className="pt-10 lg:pt-16">
                 <div className="">
-                  <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                  <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
                     An initiative supported by
                   </h2>
                 </div>
@@ -378,16 +430,16 @@ export default function Home() {
               <div className="max-w-4xl home--shadow-box border-2 border-gray-800 mx-auto">
                 <div className="space-y-12 p-6 md:p-16">
                   <div>
-                    <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
                       Full Scholarship
                     </h2>
-                    <p className="text-xl md:text-2xl pt-8">
+                    <p className="text-xl md:text-2xl pt-8 text-gray-300">
                       This program has been crafted by a dynamic team of
                       individuals from numerous companies. Donor Funding from
                       Schmidt Futures and Facebook (India) has been instrumental
                       in bringing this initiative to life.
                     </p>
-                    <p className="text-xl md:text-2xl pt-4">
+                    <p className="text-xl md:text-2xl pt-4 text-gray-300">
                       The donor funding enables us to offer the course to you
                       for free.
                     </p>
@@ -395,9 +447,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="bg-yellow-200 max-w-6xl mx-auto mt-12 home--shadow-box font-semibold leading-snug p-10 border-2 border-gray-800">
+            <div className="bg-yellow-300 max-w-6xl mx-auto mt-12 home--shadow-box font-semibold leading-snug p-10 border-2 border-gray-800">
               <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
-                Course Highlights
+                Community Responder 101 Course Highlights.
               </h2>
               <ul className="mt-8 text-lg md:text-2xl list-disc max-w-4xl mx-auto space-y-4">
                 <li>
@@ -427,14 +479,14 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="py-12">
+            <div className="py-6">
               <div className="max-w-6xl mx-auto">
                 <div className="space-y-12 md:p-16">
                   <div>
-                    <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
                       Graduate Attribute: Environmental Awareness and Action
                     </h2>
-                    <p className="text-lg md:text-2xl pt-8">
+                    <p className="text-lg md:text-2xl pt-8 text-gray-300">
                       In the realm of higher education, graduate attributes
                       stand as the compass guiding students toward success in
                       both their professional and personal lives. These
@@ -442,13 +494,13 @@ export default function Home() {
                       skills, and knowledge, shaping individuals for the
                       challenges of the 21st century.
                     </p>
-                    <p className="text-lg md:text-2xl pt-4">
+                    <p className="text-lg md:text-2xl pt-4 text-gray-300">
                       In alignment with India's visionary National Educational
                       Policy of 2020, this course is your pathway to nurturing
                       one of the 18 pivotal attributes deemed vital for the
                       modern age.
                     </p>
-                    <p className="text-lg md:text-2xl pt-4">
+                    <p className="text-lg md:text-2xl pt-4 text-gray-300">
                       This course empowers you with the essential graduate
                       attribute of{" "}
                       <span className="font-semibold">
@@ -460,14 +512,36 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="py-12">
+            <div className="pb-6">
               <div className="max-w-6xl mx-auto">
                 <div className="space-y-12 md:p-16">
                   <div>
-                    <h2 className="max-w-6xl text-gray-900 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                    <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
+                      Become a part of GDC FieldOps Disaster Management Cadre.
+                    </h2>
+                    <p className="text-lg md:text-2xl pt-8 text-gray-300">
+                      Your mission is to learn how our nation manages a disaster
+                      so that when the next disaster strikes, you already know
+                      whom to reach out to for help and/or can contribute to
+                      strengthening the capabilities of our governmental system.
+                    </p>
+                    <p className="text-lg md:text-2xl pt-4 text-gray-300">
+                      Post completion of the course, interested individuals can
+                      become part of the GDC FieldOps Disaster Management Cadre
+                      and can volunteer to contribute at times of emergencies.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pb-6">
+              <div className="max-w-6xl mx-auto">
+                <div className="space-y-12 md:p-16">
+                  <div>
+                    <h2 className="max-w-6xl text-gray-50 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
                       Fundamental Duty to the nation 🇮🇳
                     </h2>
-                    <p className="text-lg md:text-2xl pt-8">
+                    <p className="text-lg md:text-2xl pt-8 text-gray-300">
                       <a
                         className="text-blue-600 font-medium underline hover:text-blue-700 hover:bg-blue-50 transition"
                         href="https://www.moes.gov.in/content/fundamental-duties"
@@ -491,7 +565,7 @@ export default function Home() {
             </div>
           </div>
           <section className="pb-12 px-4">
-            <div className="max-w-6xl home--shadow-box__light bg-gray-900 text-white border-2 border-gray-200 mx-auto">
+            <div className="max-w-6xl home--shadow-box bg-gray-900 text-white border-2 border-gray-800 mx-auto">
               <div className="space-y-12 p-6 md:p-16">
                 <div>
                   <h2 className="max-w-6xl text-gray-100 text-center font-bold text-2xl lg:text-7xl ml-4 lg:mx-auto">
@@ -511,7 +585,7 @@ export default function Home() {
                   </p>
                 </div>
                 <a
-                  className="block max-w-xs mx-auto w-full text-center px-10 py-4 bg-white text-gray-900 text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:bg-yellow-300 hover:text-gray-900 transition duration-250 ease-in-out"
+                  className="block max-w-xs mx-auto w-full text-center px-10 py-4 bg-yellow-400 border border-gray-900 text-gray-900 cursor-pointer text-lg font-semibold rounded-md shadow-md hover:shadow-xl hover:bg-yellow-300 hover:text-gray-900 transition duration-250 ease-in-out"
                   target="_blank"
                   href="https://www.pupilfirst.school/courses/1855"
                 >
@@ -521,8 +595,8 @@ export default function Home() {
             </div>
             <div className="max-w-6xl mx-auto text-center">
               <div className="pt-10 lg:pt-12">
-                <h4 className="text-xl lg:text-3xl  font-bold">Questions?</h4>
-                <p className="text-gray-700 pt-2">
+                <h4 className="text-xl lg:text-3xl font-bold">Questions?</h4>
+                <p className="text-gray-100 pt-2">
                   Email us at
                   <a
                     href="mailto:support@gdc.network"
@@ -537,7 +611,7 @@ export default function Home() {
             </div>
           </section>
         </section>
-        <div className="flex justify-center items-center py-4 px-4 border-t border-gray-300">
+        <div className="flex justify-center items-center py-4 px-4 border-t border-gray-800">
           <img className="block w-32" src="logos/pupilfirst-logo.svg" />
         </div>
       </main>
