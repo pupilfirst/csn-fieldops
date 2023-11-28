@@ -167,7 +167,7 @@ export default function Home() {
           </a>
         </section>
         <section className="px-4 py-12 relative z-10">
-          <div className="home--shadow-box bg-black border-2 border-gray-800 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
+          <div className="home--shadow-box bg-white border-2 border-gray-800 max-w-6xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center text-center">
               <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-gray-900 text-gray-200 shadow-inner">
                 Supported By
