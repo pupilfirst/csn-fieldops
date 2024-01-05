@@ -173,7 +173,7 @@ export default function Home() {
                 Supported By
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3 lg:grid-cols-5 pt-7">
+            <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3 lg:grid-cols-6 pt-7">
               <div className="flex justify-center">
                 <div className="w-14 flex items-center">
                   <img
@@ -198,6 +198,15 @@ export default function Home() {
                     className="object-contain w-full"
                     src="logos/Schmidt-Futures-Logo.png"
                     alt="Schmidt Futures"
+                  />
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <div className="w-20 flex items-center">
+                  <img
+                    className="object-contain w-full"
+                    src="logos/SGF-Logo.png"
+                    alt="Saturn Global Foundation"
                   />
                 </div>
               </div>
