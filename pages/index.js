@@ -53,9 +53,10 @@ export default function Home() {
           content="GDC FieldOps Fellowship is a national programme to educate students about various government systems involved in disaster management and empower them with basic knowledge and skills to safeguard our communities during times of crisis and uncertainty like disaster/pandemic."
         />
         <meta
+          name="image"
           property="og:image"
           content="https://fieldops.gdc.network/OG_image.jpg"
-        />
+        ></meta>
         <meta property="og:url" content="https://fieldops.gdc.network/" />
         <meta
           name="twitter:card"
