@@ -52,9 +52,9 @@ export default function Home() {
           property="og:description"
           content="GDC FieldOps Fellowship is a national programme to educate students about various government systems involved in disaster management and empower them with basic knowledge and skills to safeguard our communities during times of crisis and uncertainty like disaster/pandemic."
         />
-        <meta property="og:image" content="GDC-FieldOps-fellowship.png" />
+        <meta property="og:image" content="GDC-FieldOps-fellowship.jpg" />
         <meta property="og:url" content="https://fieldops.gdc.network/" />
-        <meta name="twitter:card" content="GDC-FieldOps-fellowship.png" />
+        <meta name="twitter:card" content="GDC-FieldOps-fellowship.jpg" />
         <meta property="og:site_name" content="GDC FieldOps Fellowship!" />
         <meta name="GDC FieldOps Fellowship is a national programme to educate students about various government systems involved in disaster management and empower them with basic knowledge and skills to safeguard our communities during times of crisis and uncertainty like disaster/pandemic." />
 
