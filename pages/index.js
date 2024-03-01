@@ -55,12 +55,12 @@ export default function Home() {
         <meta
           name="image"
           property="og:image"
-          content="https://fieldops.gdc.network/OG_image.jpg"
+          content="https://fieldops.gdc.network/FieldOps-fellowship_OG_image.png"
         ></meta>
         <meta property="og:url" content="https://fieldops.gdc.network/" />
         <meta
           name="twitter:card"
-          content="https://fieldops.gdc.network/OG_image.jpg"
+          content="https://fieldops.gdc.network/FieldOps-fellowship_OG_image.png"
         />
         <meta property="og:site_name" content="GDC FieldOps Fellowship!" />
         <meta
