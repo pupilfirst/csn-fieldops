@@ -429,7 +429,7 @@ export default function Home() {
                       <>
                         Founder &amp; CEO,
                         <br />
-                        PupilFirst.org
+                        Pupilfirst.org
                       </>
                     }
                     imgSrc="people/sanjay-vijayakumar.jpg"
